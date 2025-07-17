@@ -1,0 +1,4 @@
+$execute as @a[team=$(team), tag=equipp] run item replace entity @s armor.head with leather_helmet[unbreakable={},enchantments={"minecraft:blast_protection":3,"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},dyed_color=$(tint)]
+$execute as @a[team=$(team), tag=equipp] run item replace entity @s armor.chest with leather_chestplate[unbreakable={},enchantments={"minecraft:blast_protection":3,"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},dyed_color=$(tint)]
+$execute as @a[team=$(team), tag=equipp] run item replace entity @s armor.legs with leather_leggings[unbreakable={},enchantments={"minecraft:blast_protection":3,"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},dyed_color=$(tint)]
+$execute as @a[team=$(team), tag=equipp] run item replace entity @s armor.feet with leather_boots[unbreakable={},enchantments={"minecraft:blast_protection":3,"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},dyed_color=$(tint)]

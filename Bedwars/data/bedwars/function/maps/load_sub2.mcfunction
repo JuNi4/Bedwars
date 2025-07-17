@@ -1,0 +1,1 @@
+$data modify storage bedwars:maps selected_map set from storage bedwars:maps maps[$(id)]

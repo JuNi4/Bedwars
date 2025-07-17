@@ -1,0 +1,1 @@
+function bedwars:maps/api/register {name:"Fortress", function:"bedwars:maps/fortress/load"}

@@ -1,0 +1,1 @@
+$execute as @e[tag=$(team)_bed] at @s run fill ~2 ~2 ~2 ~-2 ~-2 ~-2 air replace $(team)_bed

@@ -1,0 +1,1 @@
+$execute store result storage bedwars:maps id int 1 run random value 0..$(count)

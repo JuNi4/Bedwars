@@ -1,0 +1,4 @@
+#execute as @e[type=furnace_minecart] at @s run summon text_display ~ ~3.5 ~ {Tags:["diamond_time"],billboard:"vertical",text:["Next Diamond in ",{"color":"gray","score":{"name":"@e[tag=diamond_spawner,limit=1,sort=nearest]","objective":"spawn_cooldown_display"}}]}
+$execute as @e[tag=$(spawner)_spawner, tag=all_forge] store result score @s spawn_cooldown_display run scoreboard players get @s spawn_cooldown
+$execute as @e[tag=$(spawner)_spawner, tag=all_forge] run scoreboard players operation @s spawn_cooldown_display /= tps data
+$execute as @e[tag=$(spawner)_spawner_time] run data modify entity @s text set value ["Next $(name) in ",{"color":"yellow","score":{"name":"@e[tag=$(spawner)_spawner,limit=1,sort=nearest]","objective":"spawn_cooldown_display"}}]

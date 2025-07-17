@@ -1,0 +1,1 @@
+$execute at @e[type=egg, nbt={Item: {components: {"minecraft:item_name": {text: "Bridge Egg"}}}}, tag=$(team)] run fill ~-0.5 ~-2 ~-0.5 ~0.5 ~-2 ~0.5 minecraft:$(team)_wool replace air

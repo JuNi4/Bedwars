@@ -1,0 +1,2 @@
+$execute as @e[tag=$(spawner)_spawner] if score @s spawn_cooldown matches ..0 at @s run summon item ~ ~1 ~ {Invulnerable:1b,Item:{id:"$(item)",count:$(count)},Age:$(age)}
+$execute as @e[tag=$(spawner)_spawner] if score @s spawn_cooldown matches ..0 store result score @s spawn_cooldown run scoreboard players get @s spawn_cooldown_max

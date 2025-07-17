@@ -1,0 +1,2 @@
+$execute as @e[tag=$(team)_bed] at @s run setblock ^-1 ^ ^ $(team)_bed[facing=$(facing),part=head] replace
+$execute as @e[tag=$(team)_bed] at @s run setblock ~ ~ ~ $(team)_bed[facing=$(facing),part=foot] replace

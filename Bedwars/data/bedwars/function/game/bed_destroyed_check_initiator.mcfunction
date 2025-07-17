@@ -1,0 +1,1 @@
+$execute as @e[tag=$(team)_bed, limit=1] at @s unless block ~ ~ ~ $(team)_bed run function bedwars:game/bed_destroyed_check {team:$(team), team_name:$(team_name), team_col:$(team_col)}

@@ -1,0 +1,1 @@
+$execute as @e[tag=$(team)_teamupgrades,limit=1] at @s run playsound minecraft:block.note_block.pling player @a[team=$(team)] ~ ~ ~ 1 2

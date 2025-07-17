@@ -1,0 +1,2 @@
+$execute at @e[tag=$(team)_spawnpoint, tag=healpool, limit=1] run particle minecraft:happy_villager ~ ~ ~ 10 10 10 0 10 normal @a[team=$(team)]
+$execute at @e[tag=$(team)_spawnpoint, tag=healpool, limit=1] run effect give @a[team=$(team), distance=..20] minecraft:regeneration 1 0 true
