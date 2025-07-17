@@ -16,6 +16,7 @@
 - [ ] fortress map
 - [ ] move the lobby to 0 0 instead of at 500 500
 - [ ] cleaner map clear
+- [ ] playtest with 4+ people
 
 # ToDo (Bonus)
 - [ ] make respawn time not show -1
@@ -23,6 +24,7 @@
 - [ ] add traps
 - [ ] rotary item shop api
 - [ ] regular item shop api
+- [ ] team upgrade api
 - [ ] have between 2 and 5 maps total
 - [ ] a bit of balancing at the end
 - [ ] optimise datapack
