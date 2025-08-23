@@ -1,5 +1,5 @@
 execute as @e[type=snowball,nbt={Item:{components: {"minecraft:item_name": {text: "Smoke Bomb"}}}}] run tag @s add smoke_bomb_init
-execute at @e[tag=smoke_bomb_init] run summon arrow ~ ~ ~ {Tags:["smoke_bomb"],life:1000}
+execute at @e[tag=smoke_bomb_init] run summon arrow ~ ~ ~ {Tags:["smoke_bomb"],life:1000,item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_effects:[{id:"minecraft:blindness",amplifier:255,duration:1000,show_particles:1b,show_icon:0b},{id:"minecraft:slowness",amplifier:0,duration:500,show_particles:0b,show_icon:0b}]}}}}
 execute as @e[tag=smoke_bomb_init] at @s run data modify entity @e[tag=smoke_bomb,sort=nearest,limit=1] Motion set from entity @s Motion
 # teams
 execute at @e[tag=smoke_bomb_init] as @a[sort=nearest,limit=1] if entity @s[team=red] run team join red @e[tag=smoke_bomb,sort=nearest,limit=1]

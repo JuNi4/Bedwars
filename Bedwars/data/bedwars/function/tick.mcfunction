@@ -20,11 +20,12 @@ function bedwars:spawners/spawn {spawner:emerald, item:"minecraft:emerald", coun
 function bedwars:spawners/update_time {spawner:diamond, name:"Diamond"}
 function bedwars:spawners/update_time {spawner:emerald, name:"Emerald"}
 
-# items
+# (shop) items
+function #bedwars:item_tick
+
 function bedwars:items/item_tick
 
-function bedwars:items/armor
-function bedwars:items/swords
+function bedwars:game/alarm_trap
 
 # effects
 effect give @a[nbt=!{foodLevel:20}] saturation 1 0 true
@@ -35,3 +36,24 @@ kill @e[type=endermite]
 
 # don't allow removal of enderchest
 execute as @e[type=item, nbt={Item:{id:"minecraft:ender_chest"}}] at @s run function bedwars:game/replace_enderchest
+
+# quickly kill players
+execute as @a[x=-300,z=-300,y=-128,dx=600,dy=64,dz=600,gamemode=!creative,gamemode=!spectator] run damage @s 10000 minecraft:out_of_world
+
+# disable certain recipes
+recipe take @a minecraft:wooden_axe
+recipe take @a minecraft:stone_axe
+recipe take @a minecraft:iron_axe
+recipe take @a minecraft:diamond_axe
+
+recipe take @a minecraft:wooden_pickaxe
+recipe take @a minecraft:stone_pickaxe
+recipe take @a minecraft:iron_pickaxe
+recipe take @a minecraft:diamond_pickaxe
+
+recipe take @a minecraft:wooden_sword
+recipe take @a minecraft:stone_sword
+recipe take @a minecraft:iron_sword
+recipe take @a minecraft:diamond_sword
+
+recipe take @a minecraft:shears

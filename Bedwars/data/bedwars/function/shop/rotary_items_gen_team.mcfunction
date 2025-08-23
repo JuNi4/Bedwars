@@ -35,12 +35,12 @@ $data merge storage bedwars:rotary_items {items:[\
             "lore":[{"italic":false,"text":"Do not step on it"}],\
             "item_model":"minecraft:stone_pressure_plate"\
         }}},\
-    {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:8},\
+    {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:6},\
         sell:{ id:"minecraft:snowball", count:1, components:{\
             "item_model":"minecraft:smoker",\
             "item_name":{"italic":false,"text":"Smoke Bomb"},\
             "lore":[{"italic":false,"text":"A lot of smoke"}],\
-            "use_cooldown":{seconds:0.5,cooldown_group:"smoke_bomb"},\
+            "use_cooldown":{seconds:5,cooldown_group:"smoke_bomb"},\
             "max_stack_size":8\
         }}},\
     {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:4},\
@@ -49,16 +49,16 @@ $data merge storage bedwars:rotary_items {items:[\
             "minecraft:item_model":"minecraft:carved_pumpkin",\
             "minecraft:item_name":{"italic":false,"text":"Jumpscare Trap"},\
             "minecraft:lore":[{"italic":false,"text":"It's really loude"}]}}},\
-    {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:4},\
+    {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:6},\
         sell: { id:"minecraft:snowball",count:1,components:{\
             "item_name":{"italic":false,"text":"Emetic Granade"},\
             "item_model":"minecraft:blue_egg",lore:[{"italic":false,"text":"Try not to vomit"}],\
-            "use_cooldown":{seconds:0.3,cooldown_group:"emetic_granade"}}}},\
-    {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:4},\
+            "use_cooldown":{seconds:5,cooldown_group:"emetic_granade"}}}},\
+    {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:8},\
         sell: { id:"minecraft:snowball",count:1,components:{\
             "item_name":{"italic":false,"text":"Poison Granade"},\
             "item_model":"minecraft:waxed_weathered_copper_bulb",lore:[{"italic":false,"text":"Do not inhale!"}],\
-            "use_cooldown":{seconds:0.3,cooldown_group:"poison_granade"}}}},\
+            "use_cooldown":{seconds:5,cooldown_group:"poison_granade"}}}},\
     {maxUses:9999999,xp:0,buy:{id:"minecraft:emerald",count:2},sell:{id:"minecraft:mace",count:1}},\
     {maxUses:9999999,xp:0,buy:{id:"minecraft:iron_ingot",count:24},sell:{id:"minecraft:wind_charge",count:8}},\
     {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:10},sell:{id:"minecraft:trident",count:1, components:{\

@@ -1,0 +1,1 @@
+$data modify storage bedwars:shop_items $(team)_shop_items append value $(item)

@@ -1,21 +1,21 @@
 # Bedwars
 
-Bedwars in Vanilla Minecraft for version 1.21.5? and up.
+Bedwars in Vanilla Minecraft for version 1.21.2 and up.
 
 # How To Play
 
 (These steps are subject to change)
 
 1. Get the latest version of the datapack either from the releases section (currently unavailable) or directly from the source.
-2. Create a world with no blocks in it by using the 'Super Flat' preset 'The Void'
+2. Create a world with no blocks in it by using the 'Super Flat' preset 'The Void' (or don't if you want scenery around the map).
 3. Either add the datapack in the world creation screen or afterwards to the world/datapack folder.
 4. Have at least one other person with you in the world.
-5. Run the command `/function bedwars:_setup` to set up the datapack. This has to be run only once per world or if the datapack updated.
-6. Select how many teams you want to have (your player count has to be devisible by the team count) by running the command `/scoreboard players set teams data [TEAM COUNT]` whilest `[TEAM COUNT]` is the number of teams you want to have on the map. Note that only 2 - 4 teams are supported at the moment.
-7. Make sure a player is at 0 0 and that the playing area is clear. If the playing area is not clear, run the command `/function bedwars:reset`. This will teleport a random player to 0 0 in spectator mode and ready the playingfield. Wait for the armorstands to sweep the **entire** area before starting a new game.
-8. Start the game by running the command `/function bedwars:start`
-9. Play the game until it ends, or if you decide to call it early, run the command `/function bedwars:reset` again to reset everything and have the game ready for another round. If the round ends by itself (time ran out or a team won) this will be executed after 10 seconds automatically.
-10. Once a game is over or the reset function is called, a player will be teleported to 0 0 and the area will be cleared. Wait for the armorstands to sweep the **entire** area before starting a new game. All other players will currently be teleported to `520.5 1 503.5` in the world (you can add a small platform there, it is outside of the area that will be cleared) but this location will be moved soon to not require any of the shenanigans.
+5. Run the command `/function bedwars:setup` to set up the datapack. This has to be run once per world or if the datapack updated.
+6. Select how many teams you want to have (your player count has to be devisible by the team count) by clicking on the command block in the lobby that is labeled "Settings" or running the command `/function bedwars:settings`. This will bring up a menu where you can choose the amount of teams.
+Alternatively you can run the following command `/scoreboard players set teams data [TEAM COUNT]` with `[TEAM COUNT]` being the number of teams you want to have on the map. Note that only 2, 3 and 4 teams are supported. Using values outside that range will have no impact on most of the game. However, some things may not function properly.
+7. Start the game by pressing the start button on the spawn platform at 0 132 0.
+8. Play the game until it ends, or if you decide to end it early, run the command `/function bedwars:reset` to reset everything and have the game ready for another round. If the round ends by itself (time ran out or a team won) this will be executed after 10 seconds automatically.
+9. Once the game is over all of you will be teleported back to the start paltform. You can't start the game while the reset is in progress. Wait until it is done and press the start button to start the game again.
 
 ## In Game
 Whilst a game is in progress, your goal is to destroy your opponents bed and eliminate members of opposing teams. As long as you have your bed, you will respawn if you die. However, if you lose your bed, you wont respawn after dieing. If you are dead, you will be in spectator mode and the time remaining until you respawn will be shown above your hotbar. If only one team is alive or the time ran out, the game will display information about who, if anyone did, won.
@@ -31,6 +31,7 @@ After 30 minutes the game will destroy all beds in order to have the game not la
 ## Bedrock Edition
 
 The only way to play with this datapack on Bedrock is to host a server with a plugin like [Geyser](https://geysermc.org/) that allows Bedrock players to join a Java server.
+Playing on bedrock edition will cause some items to not appear correctly as item components are not available on bedrock edition. The items however, will still function like they normally would.
 
 # Custom Content
 To add custom content, visit the wiki (currently unavailable) for information on how to add your own maps, custom rotating item shop items, custom items for the regular item shop or custom team upgrades

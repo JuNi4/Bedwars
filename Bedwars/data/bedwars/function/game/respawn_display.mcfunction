@@ -4,4 +4,5 @@ scoreboard players remove @s deathTimeInS 1
 scoreboard players operation @s deathTimeInS -= @s deaths
 scoreboard players operation @s deathTimeInS /= tps data
 # display that time
+title @s times 1 2 1
 title @s actionbar ["",{"text":"Respawn in ","color":"gray"},{"score":{"name":"@s","objective":"deathTimeInS"},"color":"gray"}]

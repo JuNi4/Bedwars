@@ -1,4 +1,4 @@
-$setblock ~ ~ ~ structure_block{name:"bedwars:diamond_spawner",rotation:"$(rotation)",mirror:"NONE",mode:"LOAD", ignoreEntities:0b} replace
+$setblock ~ ~ ~ structure_block{name:"$(structure)",rotation:"$(rotation)",mirror:"NONE",mode:"LOAD", ignoreEntities:0b} replace
 setblock ~ ~1 ~ redstone_block replace
 setblock ~ ~ ~ air replace
 

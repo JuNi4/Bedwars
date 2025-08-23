@@ -1,24 +1,2 @@
-clear @a
-function bedwars:setup/enderchest
-scoreboard players set event data 0
-function bedwars:maps/load
-function bedwars:game/teams_setup
-
-# clear deaths that happened between rounds
-scoreboard players set @a deaths 0
-
-# trigger rotary itemshop
-function bedwars:shop/rotary_items
-
-# give everyone their armor
-tag @a add equipp
-
-# give everyone the ingame tag
-tag @a add ingame
-
-# worldborder setup
-worldborder center 0 0
-worldborder set 240
-
-# enable ticking
-scoreboard players set is_running data 1
+execute unless entity @e[tag=clear_from_tick] run return run function bedwars:setup/start
+tellraw @a {"text":"Can't start a game whilest map clear is in progress.","color":"red"}

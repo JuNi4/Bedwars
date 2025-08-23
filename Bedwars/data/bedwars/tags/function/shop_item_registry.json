@@ -1,0 +1,9 @@
+{
+    "values": [
+        "bedwars:shop_items/blocks/init",
+        "bedwars:shop_items/tools/init",
+        "bedwars:shop_items/armor/init",
+        "bedwars:shop_items/utilities/init",
+        "bedwars:shop_items/potions/init"
+    ]
+}

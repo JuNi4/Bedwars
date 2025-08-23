@@ -69,3 +69,10 @@ $execute if score upgrade_bought data matches 1 run tag @e[tag=$(team)_spawnpoin
 $execute if score upgrade_bought data matches 1 run function bedwars:shop/team_upgrades_sound {team:$(team)}
 
 $function bedwars:shop/healpool {team:$(team)}
+
+# trap
+$execute store success score upgrade_bought data run clear @a minecraft:redstone_torch[minecraft:item_name="Alarm Trap", custom_data={"team":"$(team)"}]
+$execute if score upgrade_bought data matches 1 run tellraw @a[team=$(team)] ["",{"text":"Alarm Trap","color":"red"},{"text":" bought.","color":"gold"}]
+$execute if score upgrade_bought data matches 1 run tag @e[tag=$(team)_spawnpoint, limit=1] add alarm_trap
+$execute if score upgrade_bought data matches 1 run function bedwars:shop/team_upgrades_sound {team:$(team)}
+$function bedwars:game/alarm_trap {team:$(team)}

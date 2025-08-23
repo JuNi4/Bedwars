@@ -10,6 +10,7 @@ execute if block ^ ^1 ^ air run scoreboard players add bed_air data 1
 execute if block ^-2 ^ ^ air run scoreboard players add bed_air data 1
 execute if block ^1 ^ ^ air run scoreboard players add bed_air data 1
 
+$execute if score bed_air data matches 1.. if entity @a[team=!$(team), distance=..6.5, limit=1,sort=nearest] as @a[team=!$(team)] at @s run playsound minecraft:entity.ender_dragon.growl ambient @s
 $execute if score bed_air data matches 1.. if entity @a[team=!$(team), distance=..6.5, limit=1,sort=nearest] run function bedwars:game/bed_destroyed {team:$(team), team_name:$(team_name), team_col:$(team_col)}
 
 # check if bed was not destroyed

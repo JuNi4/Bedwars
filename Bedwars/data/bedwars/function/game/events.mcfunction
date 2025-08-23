@@ -12,10 +12,10 @@ execute if score event data matches 24000 as @e[tag=emerald_spawner] run scorebo
 execute if score event data matches 24000 run tellraw @a ["",{"text":"Emerald Spawners","color":"green"},{"text":" upgraded to level ","color":"gold"},{"text":"III","color":"yellow"},{"text":".","color":"gold"}]
 
 # bed gone
-execute if score event data matches 36000 run function bedwars:game/clear_bed {team:"red"}
-execute if score event data matches 36000 run function bedwars:game/clear_bed {team:"lime"}
-execute if score event data matches 36000 run function bedwars:game/clear_bed {team:"yellow"}
-execute if score event data matches 36000 run function bedwars:game/clear_bed {team:"blue"}
+execute if score event data matches 36000 run function bedwars:game/clear_bed {team:"red", team_name: "Red", team_col: "red"}
+execute if score teams data matches 3.. if score event data matches 36000 run function bedwars:game/clear_bed {team:"yellow", team_name: "Yellow", team_col: "yellow"}
+execute if score event data matches 36000 run function bedwars:game/clear_bed {team:"lime", team_name: "Lime", team_col: "green"}
+execute if score teams data matches 4.. if score event data matches 36000 run function bedwars:game/clear_bed {team:"blue", team_name: "Blue", team_col: "blue"}
 execute if score event data matches 36000 run tellraw @a ["",{"text":"---","color":"blue"},{"text":" Bed Gone! ","color":"gold"},{"text":"---","color":"blue"},{"text":"\n"},{"text":"All beds were destroyed!","color":"yellow"},{"text":"\n"},{"text":"----------------","color":"blue"}]
 
 # game end

@@ -1,0 +1,2 @@
+function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:12},sell:{id:"minecraft:iron_chestplate",count:1, components:{"minecraft:unbreakable":{}, "item_name":"Permanent Iron Armor"}}}}
+function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:emerald",count:6},sell:{id:"minecraft:diamond_chestplate",count:1, components:{"minecraft:unbreakable":{}, "item_name":"Permanent Diamond Armor"}}}}

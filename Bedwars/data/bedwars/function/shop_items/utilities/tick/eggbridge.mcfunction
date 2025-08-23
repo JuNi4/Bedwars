@@ -9,10 +9,10 @@ execute as @e[type=egg, tag=!eggbridge] run tag @s add eggbridge
 # sound
 execute as @e[type=egg, nbt={Item: {components: {"minecraft:item_name": {text: "Bridge Egg"}}}}] at @s run playsound minecraft:entity.chicken.egg ambient @a
 # blocks
-function bedwars:items/eggbridge_place {team:"red"}
-function bedwars:items/eggbridge_place {team:"lime"}
-function bedwars:items/eggbridge_place {team:"yellow"}
-function bedwars:items/eggbridge_place {team:"blue"}
+function bedwars:shop_items/utilities/tick/eggbridge_place {team:"red"}
+function bedwars:shop_items/utilities/tick/eggbridge_place {team:"lime"}
+function bedwars:shop_items/utilities/tick/eggbridge_place {team:"yellow"}
+function bedwars:shop_items/utilities/tick/eggbridge_place {team:"blue"}
 # destroy after 40 ticks
 scoreboard players add @e[type=egg, nbt={Item: {components: {"minecraft:item_name": {text: "Bridge Egg"}}}}] item_deathtime 1
 kill @e[type=egg, nbt={Item: {components: {"minecraft:item_name": {text: "Bridge Egg"}}}},scores={item_deathtime=40..}]

@@ -1,0 +1,1 @@
+function bedwars:maps/api/register {name:"Snow Globe", function:"bedwars:maps/snow_globe/load"}
