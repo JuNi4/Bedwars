@@ -11,11 +11,11 @@ Bedwars in Vanilla Minecraft for version 1.21.2 and up.
 3. Either add the datapack in the world creation screen or afterwards to the world/datapack folder.
 4. Have at least one other person with you in the world.
 5. Run the command `/function bedwars:setup` to set up the datapack. This has to be run once per world or if the datapack updated.
-6. Select how many teams you want to have (your player count has to be devisible by the team count) by clicking on the command block in the lobby that is labeled "Settings" or running the command `/function bedwars:settings`. This will bring up a menu where you can choose the amount of teams.
+6. Select how many teams you want to have by clicking on the command block in the lobby that is labeled "Settings" or running the command `/function bedwars:settings`. This will bring up a menu where you can choose the amount of teams.
 Alternatively you can run the following command `/scoreboard players set teams data [TEAM COUNT]` with `[TEAM COUNT]` being the number of teams you want to have on the map. Note that only 2, 3 and 4 teams are supported. Using values outside that range will have no impact on most of the game. However, some things may not function properly.
-7. Start the game by pressing the start button on the spawn platform at 0 132 0.
+7. Start the game by pressing the start button on the spawn platform.
 8. Play the game until it ends, or if you decide to end it early, run the command `/function bedwars:reset` to reset everything and have the game ready for another round. If the round ends by itself (time ran out or a team won) this will be executed after 10 seconds automatically.
-9. Once the game is over all of you will be teleported back to the start paltform. You can't start the game while the reset is in progress. Wait until it is done and press the start button to start the game again.
+9. Once the game is over, all of you will be teleported back to the start paltform. You can't start the game while the reset is in progress. Wait until it is done and press the start button to start the game again.
 
 ## In Game
 Whilst a game is in progress, your goal is to destroy your opponents bed and eliminate members of opposing teams. As long as you have your bed, you will respawn if you die. However, if you lose your bed, you wont respawn after dieing. If you are dead, you will be in spectator mode and the time remaining until you respawn will be shown above your hotbar. If only one team is alive or the time ran out, the game will display information about who, if anyone did, won.
