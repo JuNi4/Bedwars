@@ -50,7 +50,7 @@
 - [x] regular item shop api
 - [ ] team upgrade api
 - [ ] make most items not drop, like tools, armor, etc
-- [ ] add traps
+- [x] add traps
 - [ ] have between 2 and 5 maps total
 - [ ] a bit of balancing at the end
 - [ ] optimise datapack
@@ -114,3 +114,4 @@ baseic game functionallity with one map, most items from the item shop, some upg
 - added potions to the item shop
 - added a settings menu for changing the team count
 - improved player picker
+- added alarm trap
