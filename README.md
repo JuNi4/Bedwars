@@ -6,7 +6,7 @@ Bedwars in Vanilla Minecraft for version 1.21.2 and up.
 
 (These steps are subject to change)
 
-1. Get the latest version of the datapack either from the releases section (currently unavailable) or directly from the source.
+1. Get the latest version of the datapack either from the releases section or directly from the source.
 2. Create a world with no blocks in it by using the 'Super Flat' preset 'The Void' (or don't if you want scenery around the map).
 3. Either add the datapack in the world creation screen or afterwards to the world/datapack folder.
 4. You need to have a render distance of at least 16 chunks.
