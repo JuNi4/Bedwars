@@ -2,6 +2,7 @@
     "values": [
         "bedwars:maps/default/init",
         "bedwars:maps/fortress/init",
-        "bedwars:maps/snow_globe/init"
+        "bedwars:maps/snow_globe/init",
+        "bedwars:maps/shapes/init"
     ]
 }

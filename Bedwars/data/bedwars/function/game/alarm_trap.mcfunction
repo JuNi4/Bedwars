@@ -1,4 +1,4 @@
-$execute as @e[tag=$(team)_spawnpoint, tag=alarm_trap] at @s as @a[team=!$(team), distance=..20, sort=nearest, limit=1] run tag @s add trap_$(team)_triggered
+$execute as @e[tag=$(team)_spawnpoint, tag=alarm_trap] at @s as @a[team=!$(team), gamemode=!spectator, gamemode=!creative, distance=..20, sort=nearest, limit=1] run tag @s add trap_$(team)_triggered
 $execute as @a[tag=trap_$(team)_triggered] run effect clear @s minecraft:invisibility
 # play triggered sound
 $execute as @a[tag=trap_$(team)_triggered] at @s run playsound minecraft:entity.enderman.teleport ambient @s ~ ~ ~ 1 .5

@@ -30,9 +30,9 @@ $execute as @e[type=chest_minecart] at @s run function bedwars:shop/new_team_sho
 execute as @e[type=chest_minecart] run kill @s
 
 # team color
-$fill ~-25 ~5 ~-25 ~25 ~35 ~25 $(team)_wool replace white_wool
-$fill ~-25 ~5 ~-25 ~25 ~35 ~25 $(team)_concrete replace white_concrete
-$fill ~-25 ~5 ~-25 ~25 ~35 ~25 $(team)_concrete_powder replace white_concrete_powder
+$fill ~-25 ~-25 ~-25 ~25 ~35 ~25 $(team)_wool replace white_wool
+$fill ~-25 ~-25 ~-25 ~25 ~35 ~25 $(team)_concrete replace white_concrete
+$fill ~-25 ~-25 ~-25 ~25 ~35 ~25 $(team)_concrete_powder replace white_concrete_powder
 
 $function bedwars:setup/place_bed {team:$(team), facing:$(facing)}
 #$execute as @e[tag=red_bed] at @s run setblock ^-1 ^ ^ $(team)_bed[facing=$(facing),part=head]

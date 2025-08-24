@@ -1,0 +1,1 @@
+function bedwars:maps/api/register {name:"Default Map", function:"bedwars:maps/default/load"}

@@ -29,18 +29,21 @@
 
 # BUGS / FIXES / POLISH
 
+- [ ] Protection does not work somehow (on leather armor)
+- [x] allow map to set spawner cooldown
 - [x] Curse of vanishing does not work on iron armor
 - [x] cabooms block poisenss
-- [ ] jumpscare trap does not work
+- [x] jumpscare trap does not work
 - [x] make fell out of world damage instead of /kill
-- ~~[ ] make team chests locked~~ (impossible to my current knowledge)
 - [ ] grenade arrows don't have owners
 - [x] grenade arrows don't cause the hit person to have the effect
 - [ ] make caboom thingy destruction thingy at y level of tnt
 - [ ] make respawn time not show -1
-- [ ] Protection does not work somehow
-- [ ] protection removes blast protection
-- [ ] allow map to set spawner cooldown
+- [x] set spawn on join
+- [x] spectators can trigger alarm traps
+- [x] check if at least 2 players are present before starting the game
+- [?] bed gone message flickers
+- [ ] anounce team eliminated
 
 
 # ToDo (Bonus)
@@ -51,10 +54,9 @@
 - [ ] team upgrade api
 - [ ] make most items not drop, like tools, armor, etc
 - [x] add traps
-- [ ] have between 2 and 5 maps total
+- [x] have between 2 and 5 maps total
 - [ ] a bit of balancing at the end
 - [ ] optimise datapack
-- [ ] use dialogs for the shops?
 - [ ] make pickaxes, axes, shears permanent
 - ~~[ ] make blast resistance upgrades~~ (impossible)
 
@@ -87,31 +89,5 @@
 - seperate the default content from the game itself
 - documentation of apis
 
-
-# Other
-
-- [x] Upload to GitHub
-- [ ] Publish
-- [ ] Video????
-
-
-# Changelogs
-
-## Beta v0.1
-baseic game functionallity with one map, most items from the item shop, some upgrades and in generall a functional but basic version
-
-## Beta v0.2
-- fully added fortress map
-- added snow globe map
-- added item shop api
-- fixed curse of vanishing not being on some armor
-- fixed bed gone
-- moved the spawn to 0 0 with a proper lobby
-- prohibited the start of a new game while the clear is still running
-- made ematic and poisen grenade arrows cause the effect upon hitting a player instead of being wasted
-- quicker death for people who fell out of the world
-- added bows to the item shop
-- added potions to the item shop
-- added a settings menu for changing the team count
-- improved player picker
-- added alarm trap
+- make the team chest locked (i don't know if it is possible)
+- dialogs instead of villagers for shops

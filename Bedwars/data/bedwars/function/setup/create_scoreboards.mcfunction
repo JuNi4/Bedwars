@@ -13,3 +13,10 @@ scoreboard objectives add deathTimeInS dummy
 # invisibility stuff
 scoreboard objectives add damage_received minecraft.custom:minecraft.damage_taken
 scoreboard objectives add fall_distance minecraft.custom:minecraft.fall_one_cm
+
+# on leave
+scoreboard objectives add left_game minecraft.custom:minecraft.leave_game
+
+# health
+scoreboard objectives add health health Health
+scoreboard objectives setdisplay below_name health

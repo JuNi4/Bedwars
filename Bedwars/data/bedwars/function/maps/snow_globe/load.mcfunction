@@ -6,3 +6,9 @@ execute if score teams data matches 4.. positioned -50 0 6 run function bedwars:
 
 # middle island
 execute positioned -11 0 -14 run function bedwars:maps/snow_globe/create_middle_island {structure:"bedwars:snow_globe_map/center"}
+
+# reset spawner cooldown
+function bedwars:maps/snow_globe/reset_cooldown
+
+# set time of day
+time set noon

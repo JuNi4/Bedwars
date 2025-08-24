@@ -9,13 +9,14 @@ Bedwars in Vanilla Minecraft for version 1.21.2 and up.
 1. Get the latest version of the datapack either from the releases section (currently unavailable) or directly from the source.
 2. Create a world with no blocks in it by using the 'Super Flat' preset 'The Void' (or don't if you want scenery around the map).
 3. Either add the datapack in the world creation screen or afterwards to the world/datapack folder.
-4. Have at least one other person with you in the world.
-5. Run the command `/function bedwars:setup` to set up the datapack. This has to be run once per world or if the datapack updated.
-6. Select how many teams you want to have by clicking on the command block in the lobby that is labeled "Settings" or running the command `/function bedwars:settings`. This will bring up a menu where you can choose the amount of teams.
+4. You need to have a render distance of at least 16 chunks.
+5. Have at least one other person with you in the world.
+6. Run the command `/function bedwars:setup` to set up the datapack. This has to be run once per world or if the datapack updated.
+7. Select how many teams you want to have by clicking on the command block in the lobby that is labeled "Settings" or running the command `/function bedwars:settings`. This will bring up a menu where you can choose the amount of teams.
 Alternatively you can run the following command `/scoreboard players set teams data [TEAM COUNT]` with `[TEAM COUNT]` being the number of teams you want to have on the map. Note that only 2, 3 and 4 teams are supported. Using values outside that range will have no impact on most of the game. However, some things may not function properly.
-7. Start the game by pressing the start button on the spawn platform.
-8. Play the game until it ends, or if you decide to end it early, run the command `/function bedwars:reset` to reset everything and have the game ready for another round. If the round ends by itself (time ran out or a team won) this will be executed after 10 seconds automatically.
-9. Once the game is over, all of you will be teleported back to the start paltform. You can't start the game while the reset is in progress. Wait until it is done and press the start button to start the game again.
+8. Start the game by pressing the start button on the spawn platform.
+9. Play the game until it ends, or if you decide to end it early, run the command `/function bedwars:reset` to reset everything and have the game ready for another round. If the round ends by itself (time ran out or a team won) this will be executed after 10 seconds automatically.
+10. Once the game is over, all of you will be teleported back to the start paltform. You can't start the game while the reset is in progress. Wait until it is done and press the start button to start the game again.
 
 ## In Game
 Whilst a game is in progress, your goal is to destroy your opponents bed and eliminate members of opposing teams. As long as you have your bed, you will respawn if you die. However, if you lose your bed, you wont respawn after dieing. If you are dead, you will be in spectator mode and the time remaining until you respawn will be shown above your hotbar. If only one team is alive or the time ran out, the game will display information about who, if anyone did, won.

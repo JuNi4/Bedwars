@@ -26,3 +26,9 @@ execute positioned -66 -13 -66 run function bedwars:maps/api/create_middle_islan
 
 # remove a stray structure block
 setblock 21 -13 21 air
+
+# reset spawner cooldown
+function bedwars:maps/fortress/reset_cooldown
+
+# set time of day
+time set night

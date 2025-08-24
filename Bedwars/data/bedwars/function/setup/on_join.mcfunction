@@ -1,0 +1,2 @@
+execute if score is_running data matches 1 as @a[scores={left_game=1..}] run return run function bedwars:setup/on_join_be_dead
+execute as @a[scores={left_game=1..}] run function bedwars:setup/on_join_spawn

@@ -14,10 +14,10 @@ execute as @e[tag=jumpscare_init,tag=jumpscare] run tag @s remove jumpscare_init
 execute as @e[tag=jumpscare] at @s unless block ~ ~ ~ stone_button run kill @s
 
 # teamed functionality
-execute as @e[tag=jumpscare] at @s if entity @s[tag=red] run function bedwars:items/jumpscare_teamed {team:red}
-execute as @e[tag=jumpscare] at @s if entity @s[tag=lime] run function bedwars:items/jumpscare_teamed {team:lime}
-execute as @e[tag=jumpscare] at @s if entity @s[tag=yellow] run function bedwars:items/jumpscare_teamed {team:yellow}
-execute as @e[tag=jumpscare] at @s if entity @s[tag=blue] run function bedwars:items/jumpscare_teamed {team:blue}
+execute as @e[tag=jumpscare, tag=red] run function bedwars:items/jumpscare_teamed {team:red}
+execute as @e[tag=jumpscare, tag=lime] run function bedwars:items/jumpscare_teamed {team:lime}
+execute as @e[tag=jumpscare, tag=yellow] run function bedwars:items/jumpscare_teamed {team:yellow}
+execute as @e[tag=jumpscare, tag=blue] run function bedwars:items/jumpscare_teamed {team:blue}
 
 # cleanup
 execute at @e[tag=jumpscare_play] run setblock ~ ~ ~ air

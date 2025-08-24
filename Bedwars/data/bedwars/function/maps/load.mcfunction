@@ -15,6 +15,3 @@ function bedwars:maps/load_sub2 with storage bedwars:maps
 
 # run the loading file of the map
 function bedwars:maps/load_sub3 with storage bedwars:maps selected_map
-
-# reset spawner cooldown
-function bedwars:spawners/reset_cooldown
