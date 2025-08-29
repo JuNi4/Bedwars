@@ -1,7 +1,7 @@
 # set amount of rotary items
-scoreboard players set rotary_items_size data 11
+scoreboard players set rotary_items_size data 13
 # set the amount 
-scoreboard players set rotary_items_count data 3
+scoreboard players set rotary_items_count data 12
 
 # create tempoary values
 data merge storage bedwars:rotary_items {items:[], args:{i:0}, indecies:[]}

@@ -9,6 +9,6 @@ function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,b
 function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:iron_ingot",count:20},sell:{id:"minecraft:shears",count:1, components:{"minecraft:unbreakable":{}}}}}
 # bows
 function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:2},sell:{id:"minecraft:arrow",count:4}}}
-function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:20},sell:{id:"minecraft:bow",count:1, components:{"minecraft:unbreakable":{}}}}}
+function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:15},sell:{id:"minecraft:bow",count:1, components:{"minecraft:unbreakable":{}}}}}
 function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:40},sell:{id:"minecraft:bow",count:1, components:{"minecraft:unbreakable":{}, enchantments:{"minecraft:power":2}}}}}
 function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:emerald",count:6},sell:{id:"minecraft:bow",count:1, components:{"minecraft:unbreakable":{}, enchantments:{"minecraft:power":4, "minecraft:punch":2}}}}}

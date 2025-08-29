@@ -68,6 +68,9 @@ $data merge storage bedwars:rotary_items {items:[\
         "lore":[{"bold":false,"text":"Warning: not void-save"}],\
         "enchantment_glint_override":false,\
         "attribute_modifiers":[{"id":"attack_damage","type":"attack_damage","amount":4,"operation":"add_value"}]\
+    }}},\
+    {maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:8},sell:{id:"minecraft:spectral_arrow", count:1, components:{\
+        "item_name":"Popup Tower on an Arrow"\
     }}}\
 ]}
 
