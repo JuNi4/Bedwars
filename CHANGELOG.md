@@ -24,3 +24,14 @@ baseic game functionallity with one map, most items from the item shop, some upg
 - added ability for maps to set the spawner cooldowns
 - fixed jumpscare trap
 - made people who join have their spawn set
+
+### v1.1.1
+- general tweaks
+- added popup tower arrow
+- made the teleport the popuptower has when being placed disableable
+- added api for rotary item shop items
+- added on_reset tag for functions that will be triggered every time the game is reset
+- added map selector
+- added planetoid map
+- added bedwars extras data pack containing content not meant for the typical bedwars experience
+- [EXTRAS] added mental institute map which is heavely inspired by sunny meadows from phasmophobia (a bit spooky). It is an indoors map with attributes set in a way to make it more like the experience in phasmophobia.

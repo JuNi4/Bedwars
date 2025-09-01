@@ -1,1 +1,1 @@
-$execute unless entity @e[tag=$(spawner)_spawner,distance=..10] run summon marker ~ ~ ~ {Tags:["$(spawner)_spawner", "item_spawner", "$(team)_forge"]}
+$execute unless entity @e[tag=$(spawner)_spawner,distance=..1] run summon marker ~ ~ ~ {Tags:["$(spawner)_spawner", "item_spawner", "$(team)_forge"]}

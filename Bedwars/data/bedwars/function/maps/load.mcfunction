@@ -6,7 +6,7 @@ scoreboard players add map_count data 1
 execute if score map_count data matches ..0 run return run say ERROR: no maps supplied for map loading
 
 # pick a map
-function bedwars:maps/load_sub1 with storage bedwars:maps
+execute if score random_map data matches 1 run function bedwars:maps/load_sub1 with storage bedwars:maps
 
 #data modify storage bedwars:maps id set value 1
 

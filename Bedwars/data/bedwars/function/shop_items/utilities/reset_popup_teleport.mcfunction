@@ -1,0 +1,1 @@
+scoreboard players set enable_popup_teleport data 1

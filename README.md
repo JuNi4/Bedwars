@@ -1,14 +1,16 @@
 # Bedwars
 
-Bedwars in Vanilla Minecraft for version 1.21.2 and up.
+Bedwars in Vanilla Minecraft for version 1.21.6 and up.
 
 # How To Play
 
 (These steps are subject to change)
 
-1. Get the latest version of the datapack either from the releases section or directly from the source.
+> Note: Do NOT install this datapack in any world that you care about because it will delete the spawn area.
+
+1. Get the latest version of the datapack either from the [releases section](https://github.com/JuNi4/Bedwars/releases/latest) or directly from the source.
 2. Create a world with no blocks in it by using the 'Super Flat' preset 'The Void' (or don't if you want scenery around the map).
-3. Either add the datapack in the world creation screen or afterwards to the world/datapack folder.
+3. Either add the datapack in the world creation screen or afterwards to the world/datapack folder. This is also where you should add any addons (you can also do so later, just remember to run `/reload` every time you add one).
 4. You need to have a render distance of at least 16 chunks.
 5. Have at least one other person with you in the world.
 6. Run the command `/function bedwars:setup` to set up the datapack. This has to be run once per world or if the datapack updated.

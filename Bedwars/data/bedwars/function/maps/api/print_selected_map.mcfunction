@@ -1,0 +1,2 @@
+$execute if score random_map data matches 0 run return run tellraw @a [{"text":"\nCurrently selected map: "},{"text":"$(name)", "color":"yellow"}]
+tellraw @a [{"text":"\nCurrently selected map: "},{"text":"Random", "color":"yellow"}]

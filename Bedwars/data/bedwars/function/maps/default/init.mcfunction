@@ -1,1 +1,1 @@
-function bedwars:maps/api/register {name:"Shapes", function:"bedwars:maps/shapes/load"}
+function bedwars:maps/api/register {name:"Default", function:"bedwars:maps/default/load"}

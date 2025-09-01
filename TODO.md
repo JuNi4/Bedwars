@@ -29,7 +29,7 @@
 
 # BUGS / FIXES / POLISH
 
-- [ ] Protection does not work somehow (on leather armor)
+- [x] Protection does not work somehow (on leather armor)
 - [x] allow map to set spawner cooldown
 - [x] Curse of vanishing does not work on iron armor
 - [x] cabooms block poisenss
@@ -44,20 +44,21 @@
 - [x] check if at least 2 players are present before starting the game
 - [?] bed gone message flickers
 - [ ] anounce team eliminated
+- [ ] not have spawners spawn more than necessary (diamond spawners 8 max, ...)
 
 
 # ToDo (Bonus)
 
 - [x] quicker unalive when falling down
-- [ ] rotary item shop api
+- [x] rotary item shop api
 - [x] regular item shop api
 - [ ] team upgrade api
+- [ ] make pickaxes, axes, shears permanent
 - [ ] make most items not drop, like tools, armor, etc
-- [x] add traps
+- [1] add traps
 - [x] have between 2 and 5 maps total
 - [ ] a bit of balancing at the end
 - [ ] optimise datapack
-- [ ] make pickaxes, axes, shears permanent
 - ~~[ ] make blast resistance upgrades~~ (impossible)
 
 

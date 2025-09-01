@@ -23,8 +23,6 @@ function bedwars:spawners/update_time {spawner:emerald, name:"Emerald"}
 # (shop) items
 function #bedwars:item_tick
 
-function bedwars:items/item_tick
-
 function bedwars:game/alarm_trap
 
 # effects

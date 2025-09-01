@@ -12,6 +12,9 @@ tellraw @a [\
         {"text":"[4]","color":"blue",\
             "click_event":{"action":"run_command","command":"scoreboard players set teams data 4"},\
             "hover_event":{"action":"show_text","value":"4 Teams"}},\
+    {"text":"\n\n[Map Selector]", "color":"green",\
+        "click_event":{"action":"run_command", "command":"function bedwars:maps/map_selector"},\
+        "hover_event":{"action":"show_text","value":"Shows all available map options"}},\
     {"text":"\n\n"},{"text":"----------------","color":"blue"}]
 
 #tellraw @p {"click_event":{"action":"run_command","command":"/tellraw @a \"HI\""},"text":"text"}

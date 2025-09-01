@@ -1,0 +1,2 @@
+# add popup tower arrow
+function bedwars:rotary_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:gold_ingot",count:8},sell:{id:"minecraft:spectral_arrow", count:1, components:{"item_name":"Popup Tower on an Arrow" }}}}

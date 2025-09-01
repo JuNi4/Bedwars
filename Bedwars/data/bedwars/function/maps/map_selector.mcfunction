@@ -1,0 +1,1 @@
+function bedwars:maps/api/print_map_selector with storage bedwars:maps

@@ -1,0 +1,1 @@
+function bedwars:maps/api/register {name:"Mental Institute", function:"bedwars_extras:maps/mental_institute/load"}

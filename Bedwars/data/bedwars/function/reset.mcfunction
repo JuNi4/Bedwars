@@ -24,3 +24,12 @@ clear @a
 tp @a 0 132 0
 spawnpoint @a 0 132 0
 gamemode adventure @a
+
+# reset time of day
+time set noon
+
+# reset player attributes
+function bedwars:setup/reset_attributes
+
+# call reset function triggers
+function #bedwars:on_reset

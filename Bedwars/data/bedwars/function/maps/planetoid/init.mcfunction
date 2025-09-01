@@ -1,0 +1,1 @@
+function bedwars:maps/api/register {name:"Planetoid", function:"bedwars:maps/planetoid/load"}

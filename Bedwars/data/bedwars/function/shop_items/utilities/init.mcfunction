@@ -24,7 +24,7 @@ function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,b
         "minecraft:lore":[{"italic":false,"text":"Can be thrown"}],\
         "minecraft:item_name":{"italic":false,"text":"Fireball"},\
         "minecraft:item_model":"minecraft:fire_charge",\
-        "minecraft:use_cooldown":{seconds:0.1,cooldown_group:"fireball"},\
+        "minecraft:use_cooldown":{seconds:1,cooldown_group:"fireball"},\
         "minecraft:max_stack_size":64\
     }}}}
 # water bucket
@@ -41,3 +41,4 @@ function bedwars:shop_items/api/register_all_teams {item:{maxUses:9999999,xp:0,b
 
 # popup tower, 
 function bedwars:shop_items/api/register_team_specific {function:"bedwars:shop_items/utilities/add"}
+scoreboard players set enable_popup_teleport data 1

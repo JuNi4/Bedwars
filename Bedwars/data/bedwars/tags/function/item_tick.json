@@ -4,6 +4,7 @@
         "bedwars:shop_items/tools/swords",
         "bedwars:shop_items/utilities/tick",
         "bedwars:shop_items/potions/invis",
-        "bedwars:rotating_items/popup_tower_arrow/detect_direction"
+        "bedwars:rotary_items/popup_tower_arrow/popup_tower_arrow_tick",
+        "bedwars:rotary_items/default_items/tick"
     ]
 }

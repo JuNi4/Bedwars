@@ -32,3 +32,6 @@ scoreboard players set respawn_time data 120
 function bedwars:reset
 
 function bedwars:_load
+
+# set random map = true
+scoreboard players set random_map data 1
