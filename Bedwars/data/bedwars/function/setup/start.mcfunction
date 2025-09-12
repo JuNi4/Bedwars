@@ -25,3 +25,6 @@ worldborder set 250
 
 # enable ticking
 scoreboard players set is_running data 1
+
+# enable reset
+scoreboard players enable @a reset

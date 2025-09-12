@@ -27,11 +27,10 @@ function bedwars:setup/create_scoreboards
 # default values
 scoreboard players set tps data 20
 scoreboard players set respawn_time data 120
+scoreboard players set random_map data 1
+scoreboard players set start_in data 0
 
 # setup the world
 function bedwars:reset
 
 function bedwars:_load
-
-# set random map = true
-scoreboard players set random_map data 1

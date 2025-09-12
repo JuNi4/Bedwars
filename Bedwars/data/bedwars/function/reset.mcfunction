@@ -1,3 +1,10 @@
+# reset triggers
+scoreboard players set @a start 0
+scoreboard players set @a reset 0
+
+scoreboard players enable @a start
+scoreboard players reset @a reset
+
 # game reset
 scoreboard players set is_running data 0
 

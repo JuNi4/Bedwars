@@ -20,3 +20,7 @@ scoreboard objectives add left_game minecraft.custom:minecraft.leave_game
 # health
 scoreboard objectives add health health Health
 scoreboard objectives setdisplay below_name health
+
+# triggers
+scoreboard objectives add start trigger
+scoreboard objectives add reset trigger

@@ -29,16 +29,20 @@
 
 # BUGS / FIXES / POLISH
 
+- [ ] optimise datapack
+    - [x] Popuptower
+    - [ ] team upgrades
 - [x] Protection does not work somehow (on leather armor)
 - [x] allow map to set spawner cooldown
 - [x] Curse of vanishing does not work on iron armor
 - [x] cabooms block poisenss
 - [x] jumpscare trap does not work
 - [x] make fell out of world damage instead of /kill
-- [ ] grenade arrows don't have owners
+- [x] grenade arrows don't have owners
 - [x] grenade arrows don't cause the hit person to have the effect
-- [ ] make caboom thingy destruction thingy at y level of tnt
+- [x] make caboom thingy destruction thingy at y level of tnt
 - [ ] make respawn time not show -1
+- [ ] make start happen after an amount of time with a countdown
 - [x] set spawn on join
 - [x] spectators can trigger alarm traps
 - [x] check if at least 2 players are present before starting the game
@@ -49,6 +53,8 @@
 
 # ToDo (Bonus)
 
+- [x] abstract & simple map
+- [x] popup tower arrow (like avm)
 - [x] quicker unalive when falling down
 - [x] rotary item shop api
 - [x] regular item shop api
@@ -57,19 +63,19 @@
 - [ ] make most items not drop, like tools, armor, etc
 - [1] add traps
 - [x] have between 2 and 5 maps total
+- [ ] add triggers for the most essential functions
 - [ ] a bit of balancing at the end
-- [ ] optimise datapack
+- [ ] balance healpool
 - ~~[ ] make blast resistance upgrades~~ (impossible)
+- [ ] disable friendly fire
 
 
 # IDEAS
 
-- abstract & simple map
 
 - item that freezes projectiles
 - block zapper
 - (for traps) magic milk
-- popup tower arrow (like avm)
 - player shuffle (with someone from your own team?)
 - player locator
 - bundles

@@ -14,7 +14,7 @@ execute as @a run attribute @s minecraft:flying_speed base reset
 execute as @a run attribute @s minecraft:follow_range base reset
 execute as @a run attribute @s minecraft:gravity base reset
 execute as @a run attribute @s minecraft:jump_strength base reset
-execute as @a run attribute @s minecraft:knockback_resistance base reset
+#execute as @a run attribute @s minecraft:knockback_resistance base reset
 execute as @a run attribute @s minecraft:luck base reset
 execute as @a run attribute @s minecraft:max_absorption base reset
 execute as @a run attribute @s minecraft:max_health base reset
@@ -33,3 +33,6 @@ execute as @a run attribute @s minecraft:tempt_range base reset
 execute as @a run attribute @s minecraft:water_movement_efficiency base reset
 execute as @a run attribute @s minecraft:waypoint_receive_range base reset
 execute as @a run attribute @s minecraft:waypoint_transmit_range base reset
+
+# non default values
+execute as @a run attribute @s minecraft:knockback_resistance base set 0
