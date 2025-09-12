@@ -35,3 +35,8 @@ baseic game functionallity with one map, most items from the item shop, some upg
 - added planetoid map
 - added bedwars extras data pack containing content not meant for the typical bedwars experience
 - [EXTRAS] added mental institute map which is heavely inspired by sunny meadows from phasmophobia (a bit spooky). It is an indoors map with attributes set in a way to make it more like the experience in phasmophobia.
+
+### v1.1.2
+- improved performance of popuptowers
+- disabled friendly fire
+- disabled collision with team members (no pushing allowed. at least with friends)

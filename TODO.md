@@ -49,6 +49,7 @@
 - [?] bed gone message flickers
 - [ ] anounce team eliminated
 - [ ] not have spawners spawn more than necessary (diamond spawners 8 max, ...)
+- [x] disable friendly fire
 
 
 # ToDo (Bonus)
@@ -67,7 +68,6 @@
 - [ ] a bit of balancing at the end
 - [ ] balance healpool
 - ~~[ ] make blast resistance upgrades~~ (impossible)
-- [ ] disable friendly fire
 
 
 # IDEAS
