@@ -4,6 +4,7 @@
         "bedwars:maps/fortress/init",
         "bedwars:maps/snow_globe/init",
         "bedwars:maps/shapes/init",
-        "bedwars:maps/planetoid/init"
+        "bedwars:maps/planetoid/init",
+        "bedwars:maps/resin_rush/init"
     ]
 }

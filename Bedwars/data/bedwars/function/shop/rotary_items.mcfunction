@@ -1,8 +1,8 @@
 # set amount of rotary items
 execute store result score rotary_items_size data run scoreboard players get rotary_item_count data
 # set the amount
-#scoreboard players set rotary_items_in_shop data 12
-execute store result score rotary_items_in_shop data run scoreboard players get rotary_item_count data
+scoreboard players set rotary_items_in_shop data 3
+#execute store result score rotary_items_in_shop data run scoreboard players get rotary_item_count data
 
 # create tempoary values
 data merge storage bedwars:rotary_items {items:[], args:{i:0}, indecies:[]}

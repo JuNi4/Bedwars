@@ -1,0 +1,1 @@
+function bedwars:maps/api/register {name:"Resin Rush", function:"bedwars:maps/resin_rush/load"}

@@ -50,6 +50,7 @@
 - [ ] anounce team eliminated
 - [ ] not have spawners spawn more than necessary (diamond spawners 8 max, ...)
 - [x] disable friendly fire
+- [ ] remove armor recipes
 
 
 # ToDo (Bonus)
@@ -86,6 +87,7 @@
 - instant bed protection. can be placed near a bed to cover it with basic protection
 - unignited tnt
 - bed mover. moves a bed up to 5 blocks. might have to be anounced globally and only be usable once per team.
+- explosive sheep
 
 - sudden death
 - disable the locator bar
