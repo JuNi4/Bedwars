@@ -30,7 +30,10 @@ scoreboard players set respawn_time data 120
 scoreboard players set random_map data 1
 scoreboard players set start_in data 0
 
+# call reset hooks
+function #bedwars:on_setup
+
 # setup the world
 function bedwars:reset
 
-function bedwars:_load
+function bedwars:setup/_load

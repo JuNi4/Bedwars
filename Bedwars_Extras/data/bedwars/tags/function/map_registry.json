@@ -1,5 +1,6 @@
 {
     "values": [
-        "bedwars_extras:maps/mental_institute/init"
+        "bedwars_extras:maps/mental_institute/init",
+        "bedwars_extras:maps/a_pizza/init"
     ]
 }

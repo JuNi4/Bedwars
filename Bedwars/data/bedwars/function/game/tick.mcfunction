@@ -55,3 +55,6 @@ recipe take @a minecraft:iron_sword
 recipe take @a minecraft:diamond_sword
 
 recipe take @a minecraft:shears
+
+recipe take @a minecraft:iron_chestplate
+recipe take @a minecraft:diamond_chestplate

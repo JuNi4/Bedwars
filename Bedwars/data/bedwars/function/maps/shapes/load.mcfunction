@@ -6,9 +6,9 @@ execute if score teams data matches 4.. positioned -50 0 -11 run function bedwar
 
 # diamond islands
 execute positioned 30 0 -50 run function bedwars:maps/shapes/create_diamond_island {structure:"bedwars:shapes_map/circle", rotation:"NONE"}
-execute if score teams data matches 3.. positioned 50 0 30 run function bedwars:maps/shapes/create_diamond_island  {structure:"bedwars:shapes_map/circle", rotation:"CLOCKWISE_90"}
-execute positioned -30 0 50 run function bedwars:maps/shapes/create_diamond_island  {structure:"bedwars:shapes_map/circle", rotation:"CLOCKWISE_180"}
-execute if score teams data matches 4.. positioned -50 0 -30 run function bedwars:maps/shapes/create_diamond_island  {structure:"bedwars:shapes_map/circle", rotation:"COUNTERCLOCKWISE_90"}
+execute if score teams data matches 3.. positioned 50 0 30 run function bedwars:maps/shapes/create_diamond_island {structure:"bedwars:shapes_map/circle", rotation:"CLOCKWISE_90"}
+execute positioned -30 0 50 run function bedwars:maps/shapes/create_diamond_island {structure:"bedwars:shapes_map/circle", rotation:"CLOCKWISE_180"}
+execute if score teams data matches 4.. positioned -50 0 -30 run function bedwars:maps/shapes/create_diamond_island {structure:"bedwars:shapes_map/circle", rotation:"COUNTERCLOCKWISE_90"}
 
 # middle island
 execute positioned -11 0 -11 run function bedwars:maps/shapes/create_middle_island {structure:"bedwars:shapes_map/square"}

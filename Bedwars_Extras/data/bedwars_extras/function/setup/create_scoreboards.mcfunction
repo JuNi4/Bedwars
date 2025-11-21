@@ -1,0 +1,3 @@
+scoreboard objectives add animatronics_visible dummy
+scoreboard objectives add animatronics_death dummy
+scoreboard objectives add animatronics_data dummy

@@ -26,22 +26,46 @@
 - [x] playtest with 4+ people
 - [x] ice map (small)
 
+- [x] fix multiplayer raycast
+- [x] bedrock sourrunding
+- [x] death selection fix
+- [x] animatronic head movement
+- [ ] hearing system
+- [x] increasing animatronic speed
+- [ ] animatronic chases
 
 # BUGS / FIXES / POLISH
 
 - [ ] optimise datapack
-    - [x] Popuptower
+    - [x] Popuptowe8r
     - [ ] team upgrades
+          Function name                                                         | calls | @e
+    - [ ] bedwars:shop_items/utilities/tick/popuptower_place/-1171923746 size=7 | 16    | 112
+    - [ ] bedwars:shop/team_upgrades/3555964 size=62                            | 4     | 56
+    - [x] bedwars:shop_items/utilities/tick/sponge size=28                      | 1     | 28
+    - [ ] bedwars:shop_items/utilities/tick/popuptower_dir/3555964 size=9       | 4     | 20
+    - [ ] bedwars:rotary_items/default_items/tick/proximitymine size=16         | 1     | 17
+    - [ ] bedwars:rotary_items/default_items/tick/remotedetonator size=13       | 1     | 16
+    - [ ] bedwars:rotary_items/default_items/tick/smokebomb size=15             | 1     | 15
+    - [ ] bedwars:game/alarm_trap/3555964 size=11                               | 4     | 13
+    - [ ] bedwars:rotary_items/default_items/tick/jumpscare size=17             | 1     | 13
+    - [ ] bedwars:game/spawn/3555964 size=7                                     | 4     | 12
+    - [ ] bedwars:shop/healpool/3555964 size=2                                  | 4     | 12
+    - [ ] bedwars:rotary_items/default_items/tick/slimeplatform size=12         | 1     | 12
+    - [ ] bedwars:shop_items/utilities/tick/eggbridge size=13                   | 1     | 10
+    - [ ] bedwars:rotary_items/default_items/tick/poisongranade size=9          | 1     | 10
+    - [ ] bedwars:rotary_items/default_items/tick/emeticgranade size=9          | 1     | 10
+    - [ ] bedwars:rotary_items/default_items/tick/timewarppearl size=8          | 1     | 9
 - [x] Protection does not work somehow (on leather armor)
 - [x] allow map to set spawner cooldown
 - [x] Curse of vanishing does not work on iron armor
-- [x] cabooms block poisenss
+- [x] cabooms block poisons
 - [x] jumpscare trap does not work
 - [x] make fell out of world damage instead of /kill
 - [x] grenade arrows don't have owners
 - [x] grenade arrows don't cause the hit person to have the effect
 - [x] make caboom thingy destruction thingy at y level of tnt
-- [ ] make respawn time not show -1
+- [x] make respawn time not show -1
 - [ ] make start happen after an amount of time with a countdown
 - [x] set spawn on join
 - [x] spectators can trigger alarm traps
@@ -50,8 +74,9 @@
 - [ ] anounce team eliminated
 - [ ] not have spawners spawn more than necessary (diamond spawners 8 max, ...)
 - [x] disable friendly fire
-- [ ] remove armor recipes
-
+- [x] remove armor recipes
+- [ ] make shops immovable
+- [ ] armor is not refunded when already having one
 
 # ToDo (Bonus)
 
@@ -69,6 +94,7 @@
 - [ ] a bit of balancing at the end
 - [ ] balance healpool
 - ~~[ ] make blast resistance upgrades~~ (impossible)
+- [ ] ability to not partake in a match at all and spectate from the beginning
 
 
 # IDEAS

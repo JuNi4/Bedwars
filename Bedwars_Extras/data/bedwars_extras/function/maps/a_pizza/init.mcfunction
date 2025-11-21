@@ -1,0 +1,1 @@
+function bedwars:maps/api/register {name:"A. Pizza", function:"bedwars_extras:maps/a_pizza/load"}

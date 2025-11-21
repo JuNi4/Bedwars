@@ -5,3 +5,6 @@ $summon villager ~ ~ ~ \
     { NoGravity:1b, Silent:1b, Invulnerable:1b, CustomNameVisible:1b, PersistenceRequired:1b, CanPickUpLoot:0b,\
       CustomName:"Item Shop", VillagerData:{level:5,profession:"minecraft:weaponsmith",type:"minecraft:plains"}, \
       Tags:["$(team)_item_shop", "item_shop"], Offers: { Recipes: $(items) } }
+
+
+# add in the no move part

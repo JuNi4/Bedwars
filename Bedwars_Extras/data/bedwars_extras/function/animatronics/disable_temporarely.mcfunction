@@ -1,0 +1,1 @@
+scoreboard players set animatronic_enabled animatronics_data 0

@@ -6,9 +6,9 @@ execute if score teams data matches 4.. positioned -29 2 3 run function bedwars:
 
 # diamond islands
 execute positioned 15 2 -20 run function bedwars:maps/api/create_diamond_island {structure:"bedwars:resin_rush_map/diamond_island", rotation:"NONE"}
-execute if score teams data matches 3.. positioned 19 2 15 run function bedwars:maps/api/create_diamond_island  {structure:"bedwars:resin_rush_map/diamond_island", rotation:"CLOCKWISE_90"}
-execute positioned -16 2 19 run function bedwars:maps/api/create_diamond_island  {structure:"bedwars:resin_rush_map/diamond_island", rotation:"CLOCKWISE_180"}
-execute if score teams data matches 4.. positioned -20 2 -16 run function bedwars:maps/api/create_diamond_island  {structure:"bedwars:resin_rush_map/diamond_island", rotation:"COUNTERCLOCKWISE_90"}
+execute if score teams data matches 3.. positioned 19 2 15 run function bedwars:maps/api/create_diamond_island {structure:"bedwars:resin_rush_map/diamond_island", rotation:"CLOCKWISE_90"}
+execute positioned -16 2 19 run function bedwars:maps/api/create_diamond_island {structure:"bedwars:resin_rush_map/diamond_island", rotation:"CLOCKWISE_180"}
+execute if score teams data matches 4.. positioned -20 2 -16 run function bedwars:maps/api/create_diamond_island {structure:"bedwars:resin_rush_map/diamond_island", rotation:"COUNTERCLOCKWISE_90"}
 
 # middle island
 execute positioned -12 0 -12 run function bedwars:maps/api/create_middle_island {structure:"bedwars:resin_rush_map/center"}

@@ -1,0 +1,1 @@
+$data modify entity @s Pose set from storage bedwars_extras:animatronic poses[$(pose_i)]

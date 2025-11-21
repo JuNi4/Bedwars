@@ -26,7 +26,7 @@ kill @e[type=acacia_boat, tag=!ds]
 
 execute as @e[tag=ds] at @s run function bedwars:spawners/new {spawner:"diamond", team:"all"}
 execute as @e[tag=ds] at @s run summon text_display ~ ~2.5 ~ {billboard:"vertical",text:[{"color":"aqua","text":"Diamond Spawner"}]}
-execute as @e[tag=ds] at @s run summon text_display ~ ~2.25 ~ {Tags:["diamond_spawner_time"],billboard:"vertical",text:[]}
+execute as @e[tag=ds] at @s run summon text_display ~ ~2.25 ~ {Tags:["diamond_spawner_time"],billboard:"vertical",text:["-"]}
 execute as @e[tag=ds] at @s run setblock ~ ~-1 ~ diamond_block
 execute as @e[tag=ds] at @s run kill @s
 
@@ -36,7 +36,7 @@ tag @e[type=oak_boat, limit=2, sort=random] add ems
 kill @e[type=oak_boat, tag=!ems]
 execute as @e[tag=ems] at @s run function bedwars:spawners/new {spawner:"emerald", team:"all"}
 execute as @e[tag=ems] at @s run summon text_display ~ ~2.5 ~ {billboard:"vertical",text:[{"color":"green","text":"Emerald Spawner"}]}
-execute as @e[tag=ems] at @s run summon text_display ~ ~2.25 ~ {Tags:["emerald_spawner_time"],billboard:"vertical",text:[]}
+execute as @e[tag=ems] at @s run summon text_display ~ ~2.25 ~ {Tags:["emerald_spawner_time"],billboard:"vertical",text:["-"]}
 execute as @e[tag=ems] at @s run setblock ~ ~-1 ~ emerald_block
 execute as @e[tag=ems] at @s run kill @s
 
@@ -46,11 +46,7 @@ function bedwars_extras:maps/mental_institute/reset_cooldown
 time set midnight
 
 # set player attributes for a more phasmo like experience
-execute as @a run attribute @s minecraft:scale base set 0.8
-execute as @a run attribute @s minecraft:movement_speed base set 0.05
-execute as @a run attribute @s minecraft:jump_strength base set 0
-#0.38
-execute as @a run attribute @s minecraft:step_height base set 1
+#execute as @s run function bedwars_extras:maps/mental_institute/attributes
 
 
 # disable popuptower teleports

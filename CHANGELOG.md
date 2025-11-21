@@ -41,6 +41,16 @@ baseic game functionallity with one map, most items from the item shop, some upg
 - disabled friendly fire
 - disabled collision with team members (no pushing allowed. at least with friends)
 
-## v1.1.2
+### v1.1.2
 - added 'Resin Rush' map
 - set rotary items to 3
+
+## Release v1.2.0
+- added 'on_setup' function tag
+- changed popuptowers teleport to exend 1 extra block up
+- removed ability to craft armor
+- removed '-1' on respawn timer
+- optimized sponge function
+- [EXTRAS] added a note when the datapack is loaded (can be disabled)
+- [EXTRAS] disabled attributes of mental institute map
+- [EXTRAS] added 'A. Pizza' map (inspired by fnaf, scarier than the 'mental institute' map)
