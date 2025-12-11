@@ -26,13 +26,6 @@
 - [x] playtest with 4+ people
 - [x] ice map (small)
 
-- [x] fix multiplayer raycast
-- [x] bedrock sourrunding
-- [x] death selection fix
-- [x] animatronic head movement
-- [ ] hearing system
-- [x] increasing animatronic speed
-- [ ] animatronic chases
 
 # BUGS / FIXES / POLISH
 
@@ -77,6 +70,7 @@
 - [x] remove armor recipes
 - [ ] make shops immovable
 - [ ] armor is not refunded when already having one
+
 
 # ToDo (Bonus)
 

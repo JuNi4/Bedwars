@@ -1,2 +1,5 @@
 # any packaged datapacks
 *.zip
+
+# python tools
+*.py

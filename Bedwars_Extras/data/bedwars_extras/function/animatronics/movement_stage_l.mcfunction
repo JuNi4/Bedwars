@@ -1,0 +1,4 @@
+execute if score #rand animatronics_data matches ..25 at @e[tag=animatronic_path_node_red_l1, limit=1] unless entity @e[tag=animatronic, distance=..1] run return run tp @s ~ ~ ~
+execute if score #rand animatronics_data matches 26..50 at @e[tag=animatronic_path_node_yellow_l1, limit=1] unless entity @e[tag=animatronic, distance=..1] run return run tp @s ~ ~ ~
+execute if score #rand animatronics_data matches 51..75 at @e[tag=animatronic_path_node_lime_l1, limit=1] unless entity @e[tag=animatronic, distance=..1] run return run tp @s ~ ~ ~
+execute if score #rand animatronics_data matches 76.. at @e[tag=animatronic_path_node_blue_l1, limit=1] unless entity @e[tag=animatronic, distance=..1] run return run tp @s ~ ~ ~

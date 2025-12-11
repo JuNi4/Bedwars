@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "#air",
+        "#wool_carpets",
+        "#pressure_plates",
+        "#buttons",
+        "#signs",
+        "minecraft:flower_pot",
+        "minecraft:tripwire_hook",
+        "minecraft:tripwire",
+        "minecraft:cobweb",
+        "minecraft:scaffolding",
+        "minecraft:campfire"
+    ]
+}

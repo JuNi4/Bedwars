@@ -6,4 +6,8 @@ data modify storage bedwars_extras:animatronic poses set value [\
     {Body:[2.0f,5.0f,-1.0f],Head:[2.0f,6.0f,11.0f],LeftArm:[-5.0f,14.0f,-12.0f],LeftLeg:[-4.0f,-3.0f,-5.0f],RightArm:[-10.0f,2.0f,5.0f],RightLeg:[2.0f,4.0f,-2.0f]},\
     {Body:[5.0f,0.0f,0.0f],Head:[7.0f,-3.0f,-1.0f],LeftArm:[9.0f,-6.0f,-3.0f],LeftLeg:[-9.0f,-5.0f,-4.0f],RightArm:[-24.0f,5.0f,-4.0f],RightLeg:[11.0f,-2.0f,8.0f]},\
     {Body:[11.0f,0.0f,0.0f],Head:[21.0f,13.0f,20.0f],LeftArm:[9.0f,-6.0f,-3.0f],LeftLeg:[-3.0f,-5.0f,-5.0f],RightArm:[-24.0f,5.0f,-4.0f],RightLeg:[21.0f,-2.0f,18.0f]},\
+    {Body:[5.0f,9.0f,0.0f],Head:[29.0f,-4.0f,13.0f],LeftArm:[3.0f,0.0f,0.0f],LeftLeg:[9.0f,7.0f,0.0f],RightArm:[-11.0f,5.0f,0.0f],RightLeg:[352.0f,10.0f,0.0f]},\
+    {Body:[2.0f,-6.0f,0.0f],Head:[23.0f,16.0f,13.0f],LeftArm:[9.0f,9.0f,-7.0f],LeftLeg:[10.0f,7.0f,-2.0f],RightArm:[-18.0f,3.0f,5.0f],RightLeg:[2.0f,9.0f,6.0f]},\
+    {Body:[3.0f,14.0f,0.0f],Head:[18.0f,13.0f,49.0f],LeftArm:[339.0f,0.0f,0.0f],LeftLeg:[6.0f,-6.0f,-5.0f],RightArm:[-32.0f,0.0f,0.0f],RightLeg:[0.0f,12.0f,1.0f]},\
+    {Body:[6.0f,17.0f,-2.0f],Head:[14.0f,-3.0f,-9.0f],LeftArm:[339.0f,0.0f,0.0f],LeftLeg:[-8.0f,4.0f,0.0f],RightArm:[-9.0f,0.0f,0.0f],RightLeg:[9.0f,0.0f,0.0f]},\
 ]

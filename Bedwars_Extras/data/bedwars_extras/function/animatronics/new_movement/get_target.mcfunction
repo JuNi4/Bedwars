@@ -1,0 +1,1 @@
+$data modify storage bedwars_extras:animatronic current_movement.arg.target set from storage bedwars_extras:animatronic current_movement.connections[$(i)]

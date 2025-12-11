@@ -1,0 +1,12 @@
+- [x] fix multiplayer raycast
+- [x] bedrock sourrunding
+- [x] death selection fix
+- [x] animatronic head movement
+- [ ] hearing system
+- [x] increasing animatronic speed
+- [x] animatronic chases
+- [x] break blocks on move
+- [x] see-through tag for animatronics
+- [x] breakable tag for animatronics (most relevant for foxy)
+- [ ] movement system v2
+- [ ] foxy breaks beds

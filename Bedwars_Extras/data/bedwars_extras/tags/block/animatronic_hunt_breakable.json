@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "#bedwars_extras:raycast_seethrough",
+        "#logs",
+        "#planks",
+        "minecraft:stone",
+        "minecraft:cobblestone",
+        "minecraft:composter",
+        "minecraft:barrel",
+        "minecraft:chest",
+        "minecraft:decorated_pot",
+        "#stairs",
+        "#slabs",
+        "#trapdoors",
+        "#wool",
+        "polished_blackstone"
+    ]
+}

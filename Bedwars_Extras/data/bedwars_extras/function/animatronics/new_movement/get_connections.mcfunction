@@ -1,0 +1,2 @@
+$data modify storage bedwars_extras:animatronic current_movement.connections set from storage bedwars_extras:animatronic current_movement.paths.$(name)
+$return run data get storage bedwars_extras:animatronic current_movement.paths.$(name)

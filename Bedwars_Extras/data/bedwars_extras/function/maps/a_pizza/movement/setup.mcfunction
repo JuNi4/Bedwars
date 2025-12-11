@@ -1,0 +1,1 @@
+function bedwars_extras:maps/a_pizza/movement/bonny/setup_movement

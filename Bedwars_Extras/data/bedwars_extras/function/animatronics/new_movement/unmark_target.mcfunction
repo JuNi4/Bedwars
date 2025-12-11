@@ -1,0 +1,1 @@
+execute as @e[tag=animatronic_move_target] run tag @s remove animatronic_move_target

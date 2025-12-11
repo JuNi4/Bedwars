@@ -33,6 +33,8 @@ tp @e[tag=bonny] @e[tag=animatronic_path_node_stage_bonny, limit=1]
 tp @e[tag=chica] @e[tag=animatronic_path_node_stage_chica, limit=1]
 tp @e[tag=foxy] @e[tag=animatronic_path_node_stage_foxy, limit=1]
 
+execute as @e[tag=animatronic] run function bedwars_extras:animatronics/assign_pose
+
 # Freddy head
 #ewogICJ0aW1lc3RhbXAiIDogMTcyMTA0ODgxMzAwMCwKICAicHJvZmlsZUlkIiA6ICI4NmYzNjM2MTE0Zjk0ZTdjODU4ZWQ4OTVkYjViNTk0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNQUxISU5EUyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YWJlZjhhNTU1OGRmNmM5YjVjNjg1ZTNjZDcwYTIzMzEwNzBjMDY2YzE0MDY1MDZlYTA4ZGFhNDE4ZDVjNGI2IgogICAgfQogIH0KfQ
 # Bonny head

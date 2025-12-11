@@ -1,2 +1,2 @@
-$summon marker ~ ~1 ~ {Tags:["animatronic_path_node", "animatronic_path_node_$(node)"]}
-#$summon text_display ~ ~1 ~ {billboard:"center",Tags:["animatronic_path_node"],text:"$(node)"}
+$summon marker ~ ~1 ~ {Tags:["animatronic_path_node", "animatronic_path_node_$(node)"],CustomName:"animatronic_path_node_$(node)"}
+$summon text_display ~ ~1 ~ {billboard:"center",Tags:["animatronic_path_node"],text:"$(node)"}
