@@ -8,5 +8,7 @@
 - [x] break blocks on move
 - [x] see-through tag for animatronics
 - [x] breakable tag for animatronics (most relevant for foxy)
-- [ ] movement system v2
-- [ ] foxy breaks beds
+- [~] movement system v2
+- [x] foxy breaks beds
+- [x] glowing eyes
+- [ ] glowing eyes rotate with rotation on los

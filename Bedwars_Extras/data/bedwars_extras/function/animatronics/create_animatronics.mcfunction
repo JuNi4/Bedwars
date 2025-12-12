@@ -35,6 +35,14 @@ tp @e[tag=foxy] @e[tag=animatronic_path_node_stage_foxy, limit=1]
 
 execute as @e[tag=animatronic] run function bedwars_extras:animatronics/assign_pose
 
+execute as @e[tag=animatronic] at @s run tp @s ~ ~ ~ facing entity @p
+
+scoreboard players set freddy_direction animatronics_data 1
+scoreboard players set bonny_direction animatronics_data 1
+scoreboard players set chica_direction animatronics_data 1
+
+execute as @e[tag=animatronic] at @s run function bedwars_extras:animatronics/glowing_eyes
+
 # Freddy head
 #ewogICJ0aW1lc3RhbXAiIDogMTcyMTA0ODgxMzAwMCwKICAicHJvZmlsZUlkIiA6ICI4NmYzNjM2MTE0Zjk0ZTdjODU4ZWQ4OTVkYjViNTk0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNQUxISU5EUyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YWJlZjhhNTU1OGRmNmM5YjVjNjg1ZTNjZDcwYTIzMzEwNzBjMDY2YzE0MDY1MDZlYTA4ZGFhNDE4ZDVjNGI2IgogICAgfQogIH0KfQ
 # Bonny head

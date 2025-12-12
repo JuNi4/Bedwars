@@ -1,5 +1,3 @@
-$say $(team)
-
 $execute unless entity @e[tag=$(team)_bed] run return fail
 $execute as @e[tag=$(team)_bed] at @s run summon minecraft:marker ~ ~ ~ {Tags:["$(team)_bed_remover"]}
 $kill @e[tag=$(team)_bed]

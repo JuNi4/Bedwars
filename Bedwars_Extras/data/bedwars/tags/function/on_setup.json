@@ -1,6 +1,7 @@
 {
     "values": [
         "bedwars_extras:setup/create_scoreboards",
-        "bedwars_extras:animatronics/poses"
+        "bedwars_extras:animatronics/poses",
+        "math:setup"
     ]
 }

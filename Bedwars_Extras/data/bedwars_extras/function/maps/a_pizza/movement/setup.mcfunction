@@ -1,1 +1,3 @@
+function bedwars_extras:maps/a_pizza/movement/freddy/setup_movement
 function bedwars_extras:maps/a_pizza/movement/bonny/setup_movement
+function bedwars_extras:maps/a_pizza/movement/chica/setup_movement

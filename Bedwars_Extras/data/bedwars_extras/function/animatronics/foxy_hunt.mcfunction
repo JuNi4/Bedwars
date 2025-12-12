@@ -55,6 +55,7 @@ execute if score foxy_hunt_reset animatronics_data matches 39 as @a[gamemode=!sp
 execute if score foxy_hunt_reset animatronics_data matches 39 run function bedwars_extras:animatronics/jumpscare
 # break the bed
 execute if score foxy_hunt_reset animatronics_data matches 39 store result score foxy_bed_los_req animatronics_data run fill ^ ^15 ^1 ^ ^15 ^4 white_wool
+execute if score foxy_hunt_reset animatronics_data matches 39 run fill ^ ^15 ^1 ^ ^15 ^4 air
 execute if score foxy_hunt_reset animatronics_data matches 39 store result score foxy_bed_los animatronics_data run fill ^ ^ ^1 ^ ^ ^4 barrier replace air
 execute if score foxy_hunt_reset animatronics_data matches 39 run fill ^ ^ ^1 ^ ^ ^4 air replace barrier
 execute if score foxy_hunt_reset animatronics_data matches 39 if score foxy_bed_los animatronics_data = foxy_bed_los_req animatronics_data as @e[tag=bed, sort=nearest, limit=1] run function bedwars_extras:animatronics/foxy_destroy_bed

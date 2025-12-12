@@ -43,10 +43,11 @@ execute if score #result animatronics_data matches 0 run return run say NEW MOVE
 # check if the target is free & teleport
 execute as @e[tag=animatronic_move_target] at @s if entity @e[tag=animatronic, distance=...5] run return run function bedwars_extras:animatronics/new_movement/unmark_target
 execute as @e[type=marker,tag=animatronic_path_node,sort=nearest,limit=1] at @s run function bedwars_extras:animatronics/new_movement/mark_start
+kill @e[tag=glowing_eyes, distance=..1.5]
 execute at @e[tag=animatronic_move_target, limit=1] run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator, gamemode=!creative]
 function bedwars_extras:animatronics/assign_pose
+execute at @e[tag=animatronic_move_target, limit=1] run function bedwars_extras:animatronics/glowing_eyes
 execute as @e[tag=animatronic_move_target] store result score @s animatronics_move run random value -5..7
 execute as @e[tag=animatronic_move_target] at @s run function bedwars_extras:animatronics/movement_extras
 tag @e[tag=animatronic_move_target] add animatronic_move
 tag @e[tag=animatronic_move_target] remove animatronic_move_target
-
