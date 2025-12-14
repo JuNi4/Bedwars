@@ -12,3 +12,4 @@
 - [x] foxy breaks beds
 - [x] glowing eyes
 - [x] glowing eyes rotate with rotation on los
+- [ ] give a grace period at game start
