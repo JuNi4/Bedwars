@@ -1,5 +1,6 @@
 kill @e[tag=glowing_eyes, limit=1, sort=nearest, distance=..1.5]
-summon text_display ~ ~1.43775 ~ {\
+# freddy, bonny, chica
+execute if entity @s[tag=!foxy] run summon text_display ~ ~1.43775 ~ {\
     Glowing:1b,\
     billboard:"fixed",\
     default_background:0b,\
@@ -8,6 +9,18 @@ summon text_display ~ ~1.43775 ~ {\
     glow_color_override:16383998,\
     brightness:{sky:15,block:15},\
     text:{"color":"white","text":".  ."},\
+    background:0}
+
+# foxy
+execute if entity @s[tag=foxy] run summon text_display ~ ~1.43775 ~ {\
+    Glowing:1b,\
+    billboard:"fixed",\
+    default_background:0b,\
+    shadow:0b,\
+    Tags:["glowing_eyes"],\
+    glow_color_override:16383998,\
+    brightness:{sky:15,block:15},\
+    text:{"color":"white","text":"  ."},\
     background:0}
 
 
@@ -23,7 +36,7 @@ data modify entity @e[tag=glowing_eyes, limit=1, sort=nearest] transformation.ri
 
 # translation
 data modify storage math:rotation input set from entity @s Pose.Head
-scoreboard players set input math 10
+scoreboard players set input math -10
 scoreboard players set input1 math 270
 scoreboard players set input2 math 328
 function math:apply_euler

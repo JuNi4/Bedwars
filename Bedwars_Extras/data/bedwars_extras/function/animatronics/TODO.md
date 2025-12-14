@@ -11,4 +11,4 @@
 - [~] movement system v2
 - [x] foxy breaks beds
 - [x] glowing eyes
-- [ ] glowing eyes rotate with rotation on los
+- [x] glowing eyes rotate with rotation on los
