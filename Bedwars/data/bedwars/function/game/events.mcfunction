@@ -21,7 +21,7 @@ execute if score event data matches 36000 run tellraw @a ["",{"text":"---","colo
 # game end
 execute if score event data matches 60000 run tellraw @a ["",{"text":"Game Over!, Time ran out!","color":"red"},{"text":"\n"},{"text":"It is a Draw!","color":"yellow"}]
 
-execute if score event data matches 60001 run gamemode spectator @a
+#execute if score event data matches 60001 run gamemode spectator @a
 
 # reset 10 seconds later
 execute if score event data matches 60200 run function bedwars:reset

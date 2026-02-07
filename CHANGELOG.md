@@ -54,3 +54,10 @@ baseic game functionallity with one map, most items from the item shop, some upg
 - [EXTRAS] added a note when the datapack is loaded (can be disabled)
 - [EXTRAS] disabled attributes of mental institute map
 - [EXTRAS] added 'A. Pizza' map (inspired by fnaf, scarier than the 'mental institute' map)
+
+## Release v1.2.1
+- fixed armor refund system
+- fixed jumpscare trap (again)
+- fixed bed gone title flickering when respawning
+- fixed double shop villagers on planetoid map
+- at round end, you will no longer be set to spectator

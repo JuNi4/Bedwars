@@ -1,9 +1,9 @@
 execute as @e[tag=jumpscare_init] at @s unless block ~ ~ ~ air run tag @s add jumpscare_misplaced
 # teamed reset
-function bedwars:items/jumpscare_reset_teamed {team:"red"}
-function bedwars:items/jumpscare_reset_teamed {team:"lime"}
-function bedwars:items/jumpscare_reset_teamed {team:"yellow"}
-function bedwars:items/jumpscare_reset_teamed {team:"blue"}
+function bedwars:rotary_items/default_items/tick/jumpscare_reset_teamed {team:"red"}
+function bedwars:rotary_items/default_items/tick/jumpscare_reset_teamed {team:"lime"}
+function bedwars:rotary_items/default_items/tick/jumpscare_reset_teamed {team:"yellow"}
+function bedwars:rotary_items/default_items/tick/jumpscare_reset_teamed {team:"blue"}
 
 kill @e[tag=jumpscare_misplaced]
 
@@ -14,10 +14,10 @@ execute as @e[tag=jumpscare_init,tag=jumpscare] run tag @s remove jumpscare_init
 execute as @e[tag=jumpscare] at @s unless block ~ ~ ~ stone_button run kill @s
 
 # teamed functionality
-execute as @e[tag=jumpscare, tag=red] run function bedwars:items/jumpscare_teamed {team:red}
-execute as @e[tag=jumpscare, tag=lime] run function bedwars:items/jumpscare_teamed {team:lime}
-execute as @e[tag=jumpscare, tag=yellow] run function bedwars:items/jumpscare_teamed {team:yellow}
-execute as @e[tag=jumpscare, tag=blue] run function bedwars:items/jumpscare_teamed {team:blue}
+execute as @e[tag=jumpscare, tag=red] run function bedwars:rotary_items/default_items/tick/jumpscare_teamed {team:red}
+execute as @e[tag=jumpscare, tag=lime] run function bedwars:rotary_items/default_items/tick/jumpscare_teamed {team:lime}
+execute as @e[tag=jumpscare, tag=yellow] run function bedwars:rotary_items/default_items/tick/jumpscare_teamed {team:yellow}
+execute as @e[tag=jumpscare, tag=blue] run function bedwars:rotary_items/default_items/tick/jumpscare_teamed {team:blue}
 
 # cleanup
 execute at @e[tag=jumpscare_play] run setblock ~ ~ ~ air

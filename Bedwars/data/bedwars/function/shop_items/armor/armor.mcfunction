@@ -3,14 +3,13 @@ execute as @a[nbt={Inventory:[{id:"minecraft:iron_chestplate"}]}, tag=iron_armor
 execute as @a[nbt={Inventory:[{id:"minecraft:iron_chestplate"}]}, tag=diamond_armor] run give @s gold_ingot 12
 execute as @a[nbt={Inventory:[{id:"minecraft:iron_chestplate"}]}, tag=!diamond_armor, tag=!iron_armor] run tag @s add equipp
 execute as @a[nbt={Inventory:[{id:"minecraft:iron_chestplate"}]}, tag=!diamond_armor, tag=!iron_armor] run tag @s add iron_armor
-clear @a[tag=iron_armor] iron_chestplate 1
+clear @a[nbt={Inventory:[{id:"minecraft:iron_chestplate"}]}] iron_chestplate 1
 # diamond armor
 execute as @a[nbt={Inventory:[{id:"minecraft:diamond_chestplate"}]}, tag=diamond_armor] run give @s emerald 6
 execute as @a[nbt={Inventory:[{id:"minecraft:diamond_chestplate"}]}, tag=!diamond_armor] run tag @s add equipp
 execute as @a[nbt={Inventory:[{id:"minecraft:diamond_chestplate"}]}, tag=!diamond_armor] run tag @s add diamond_armor
 execute as @a[nbt={Inventory:[{id:"minecraft:diamond_chestplate"}]}] run tag @s remove iron_armor
-
-clear @a[tag=diamond_armor] diamond_chestplate 1
+clear @a[nbt={Inventory:[{id:"minecraft:diamond_chestplate"}]}] diamond_chestplate 1
 
 # give armor #
 # base

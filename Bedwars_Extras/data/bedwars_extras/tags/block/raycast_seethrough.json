@@ -12,6 +12,8 @@
         "minecraft:tripwire",
         "minecraft:cobweb",
         "minecraft:scaffolding",
-        "minecraft:campfire"
+        "minecraft:campfire",
+        "#bedwars_extras:glass",
+        "#bedwars_extras:glass_panes"
     ]
 }
