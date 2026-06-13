@@ -1,0 +1,1 @@
+$summon tnt ~$(x) ~7 ~$(y) {fuse:40}

@@ -65,4 +65,15 @@ function bedwars:rotary_items/api/register_all_teams {item:{maxUses:9999999,xp:0
         "attribute_modifiers":[{"id":"attack_damage","type":"attack_damage","amount":4,"operation":"add_value"}]\
     }}}}
 
+# TNT rain
+function bedwars:rotary_items/api/register_all_teams {item:{maxUses:9999999,xp:0,buy:{id:"minecraft:emerald",count:4},\
+        sell:{ id:"minecraft:snowball", count:1, components:{\
+            "max_stack_size":16,\
+            "item_model":"minecraft:tnt",\
+            "item_name":{"italic":false,"text":"TNT Rain"},\
+            "lore":[{"italic":false,"text":"Makes TNT rain. TIPP: try avoid getting hit by it"}],\
+            "use_cooldown":{seconds:5,cooldown_group:"tnt_rain"},\
+        }}}}
+scoreboard players set tnt_rain_mod data 5
+
 function bedwars:rotary_items/api/register_team_specific {function:"bedwars:rotary_items/default_items/team_specific"}

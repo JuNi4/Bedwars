@@ -55,7 +55,8 @@
 - [x] armor is not refunded when already having one (iron armor gives infinit gold, diamond armor voids emeralds)
 - [x] Planetoid map: double shop villagers
 - [ ] Sunny meadows: issues with rotary item shop?
-
+- [ ] Bed destoyed appears multiple times
+- [ ] Statistics
 
 # ToDo (Bonus)
 

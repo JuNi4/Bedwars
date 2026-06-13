@@ -7,3 +7,4 @@ function bedwars:rotary_items/default_items/tick/smokebomb
 function bedwars:rotary_items/default_items/tick/jumpscare
 function bedwars:rotary_items/default_items/tick/poisongranade
 function bedwars:rotary_items/default_items/tick/emeticgranade
+function bedwars:rotary_items/default_items/tick/tnt_rain
