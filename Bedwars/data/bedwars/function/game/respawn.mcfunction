@@ -2,6 +2,8 @@
 gamemode spectator @a[scores={deaths=1}]
 tp @a[scores={deaths=1}] 0 50 0
 
+scoreboard players add @a[scores={deaths=1}, tag=ingame] statistic_deaths 1
+
 # make everyone respawn, even if their bed got destroyed mid respawn
 tag @a[scores={deaths=1}, tag=has_bed] add will_spawn
 

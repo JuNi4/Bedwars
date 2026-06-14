@@ -1,0 +1,2 @@
+$execute as @e[tag=$(team)_teamupgrades_anchor] at @s run tp @s ~ ~ ~ facing entity @e[tag=$(team)_item_shop_anchor,limit=1]
+$execute as @e[tag=$(team)_item_shop_anchor] at @s run tp @s ~ ~ ~ facing entity @e[tag=$(team)_teamupgrades_anchor,limit=1]

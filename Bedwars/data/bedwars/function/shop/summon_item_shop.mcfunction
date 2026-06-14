@@ -8,3 +8,4 @@ $summon villager ~ ~ ~ \
 
 
 # add in the no move part
+$summon marker ~ ~ ~ {Tags:["$(team)_item_shop_anchor"]}

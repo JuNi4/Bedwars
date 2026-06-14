@@ -19,6 +19,14 @@ tag @a add equipp
 # give everyone the ingame tag
 tag @a add ingame
 
+# increment games played
+scoreboard players add @a[tag=ingame] statistic_played_games 1
+scoreboard players reset @a statistic_kills_counter
+scoreboard players reset @a statistic_beds_red
+scoreboard players reset @a statistic_beds_yellow
+scoreboard players reset @a statistic_beds_lime
+scoreboard players reset @a statistic_beds_blue
+
 # worldborder setup
 worldborder center 0 0
 worldborder set 250

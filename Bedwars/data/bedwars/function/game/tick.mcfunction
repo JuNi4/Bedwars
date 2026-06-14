@@ -1,3 +1,16 @@
+# transfer kill count
+execute as @a run scoreboard players operation @s statistic_kills += @s statistic_kills_counter
+execute as @a run scoreboard players reset @s statistic_kills_counter
+# transfer beds
+execute as @a run scoreboard players operation @s statistic_beds_destroyed_unchecked += @s statistic_beds_red
+scoreboard players reset @a statistic_beds_red
+execute as @a run scoreboard players operation @s statistic_beds_destroyed_unchecked += @s statistic_beds_yellow
+scoreboard players reset @a statistic_beds_yellow
+execute as @a run scoreboard players operation @s statistic_beds_destroyed_unchecked += @s statistic_beds_lime
+scoreboard players reset @a statistic_beds_lime
+execute as @a run scoreboard players operation @s statistic_beds_destroyed_unchecked += @s statistic_beds_blue
+scoreboard players reset @a statistic_beds_blue
+
 # game mechanics
 function bedwars:game/events
 function bedwars:game/respawn
@@ -24,6 +37,13 @@ function bedwars:spawners/update_time {spawner:emerald, name:"Emerald"}
 function #bedwars:item_tick
 
 function bedwars:game/alarm_trap
+
+# move shops
+function bedwars:shop/anchor_shops {team:"red"}
+function bedwars:shop/anchor_shops {team:"yellow"}
+function bedwars:shop/anchor_shops {team:"lime"}
+function bedwars:shop/anchor_shops {team:"blue"}
+
 
 # effects
 effect give @a[nbt=!{foodLevel:20}] saturation 1 0 true
@@ -58,3 +78,6 @@ recipe take @a minecraft:shears
 
 recipe take @a minecraft:iron_chestplate
 recipe take @a minecraft:diamond_chestplate
+
+# reset bed count unchcecked
+scoreboard players reset @a statistic_beds_destroyed_unchecked

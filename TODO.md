@@ -51,12 +51,13 @@
 - [ ] not have spawners spawn more than necessary (diamond spawners 8 max, ...)
 - [x] disable friendly fire
 - [x] remove armor recipes
-- [ ] make shops immovable
+- [x] make shops immovable
 - [x] armor is not refunded when already having one (iron armor gives infinit gold, diamond armor voids emeralds)
 - [x] Planetoid map: double shop villagers
 - [ ] Sunny meadows: issues with rotary item shop?
 - [ ] Bed destoyed appears multiple times
 - [ ] Statistics
+- [x] Shapes map has no bedrock under player spawn
 
 # ToDo (Bonus)
 

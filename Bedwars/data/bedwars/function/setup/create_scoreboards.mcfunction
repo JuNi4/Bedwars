@@ -24,3 +24,17 @@ scoreboard objectives setdisplay below_name health
 # triggers
 scoreboard objectives add start trigger
 scoreboard objectives add reset trigger
+
+
+# statistics
+scoreboard objectives add statistic_wins dummy
+scoreboard objectives add statistic_kills dummy
+scoreboard objectives add statistic_kills_counter minecraft.killed:minecraft.player
+scoreboard objectives add statistic_deaths dummy
+scoreboard objectives add statistic_played_games dummy
+scoreboard objectives add statistic_beds_destroyed dummy
+scoreboard objectives add statistic_beds_destroyed_unchecked dummy
+scoreboard objectives add statistic_beds_red minecraft.mined:minecraft.red_bed
+scoreboard objectives add statistic_beds_yellow minecraft.mined:minecraft.yellow_bed
+scoreboard objectives add statistic_beds_lime minecraft.mined:minecraft.lime_bed
+scoreboard objectives add statistic_beds_blue minecraft.mined:minecraft.blue_bed

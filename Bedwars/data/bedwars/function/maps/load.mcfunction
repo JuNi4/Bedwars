@@ -15,3 +15,9 @@ function bedwars:maps/load_sub2 with storage bedwars:maps
 
 # run the loading file of the map
 function bedwars:maps/load_sub3 with storage bedwars:maps selected_map
+
+# align anchors
+function bedwars:shop/align_anchor {team:"red"}
+function bedwars:shop/align_anchor {team:"yellow"}
+function bedwars:shop/align_anchor {team:"lime"}
+function bedwars:shop/align_anchor {team:"blue"}

@@ -61,3 +61,7 @@ baseic game functionallity with one map, most items from the item shop, some upg
 - fixed bed gone title flickering when respawning
 - fixed double shop villagers on planetoid map
 - at round end, you will no longer be set to spectator
+
+## Release v1.2.2
+- added tnt rain (rotating item shop)
+- added statistics

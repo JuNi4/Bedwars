@@ -9,3 +9,5 @@ $summon villager ~ ~ ~ \
         {maxUses:1,xp:0,buy:{id:"minecraft:diamond",count:3},sell:{id:"minecraft:beacon",count:1, components:{"minecraft:item_name":"Healpool", "custom_data":{"team":"$(team)"}}}},\
         {maxUses:1,xp:0,buy:{id:"minecraft:diamond",count:1},sell:{id:"minecraft:redstone_torch",count:1, components:{"minecraft:item_name":"Alarm Trap", "custom_data":{"team":"$(team)"}}}},\
 ]}}
+
+$summon marker ~ ~ ~ {Tags:["$(team)_teamupgrades_anchor"]}
