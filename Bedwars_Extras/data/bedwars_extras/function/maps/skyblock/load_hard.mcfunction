@@ -18,3 +18,6 @@ execute if score teams data matches 4.. positioned -75 0 -3 run \
     function bedwars:maps/api/create_base_island {structure:"bedwars:skyblock_map/skyblock_island", rotation:"CLOCKWISE_90", facing:"east", team:"blue"}
 execute if score teams data matches 4.. positioned -65 0 1 run \
     function bedwars:maps/api/create_base_island {structure:"bedwars:skyblock_map/bed_island", rotation:"CLOCKWISE_180", facing:"east", team:"blue"}
+
+# enable recipes
+function bedwars:game/enable_recipes

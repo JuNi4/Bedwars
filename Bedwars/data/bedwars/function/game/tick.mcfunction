@@ -59,25 +59,7 @@ execute as @e[type=item, nbt={Item:{id:"minecraft:ender_chest"}}] at @s run func
 execute as @a[x=-300,z=-300,y=-128,dx=600,dy=64,dz=600,gamemode=!creative,gamemode=!spectator] run damage @s 10000 minecraft:out_of_world
 
 # disable certain recipes
-recipe take @a minecraft:wooden_axe
-recipe take @a minecraft:stone_axe
-recipe take @a minecraft:iron_axe
-recipe take @a minecraft:diamond_axe
-
-recipe take @a minecraft:wooden_pickaxe
-recipe take @a minecraft:stone_pickaxe
-recipe take @a minecraft:iron_pickaxe
-recipe take @a minecraft:diamond_pickaxe
-
-recipe take @a minecraft:wooden_sword
-recipe take @a minecraft:stone_sword
-recipe take @a minecraft:iron_sword
-recipe take @a minecraft:diamond_sword
-
-recipe take @a minecraft:shears
-
-recipe take @a minecraft:iron_chestplate
-recipe take @a minecraft:diamond_chestplate
+execute if score disable_recipes data matches 1 run function bedwars:game/disable_recipes
 
 # reset bed count unchcecked
 scoreboard players reset @a statistic_beds_destroyed_unchecked

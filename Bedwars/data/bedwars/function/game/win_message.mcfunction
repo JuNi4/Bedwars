@@ -1,2 +1,2 @@
 $tellraw @a ["",{"text":"------","color":"blue"},{"text":"Bed Wars","color":"gold"},{"text":"------","color":"blue"},{"text":"\n\n \u0020 \u0020 "},{"text":"Team","color":"yellow"},{"text":" $(display)","color":"$(color)"},{"text":" Won!","color":"yellow"},{"text":"\n\n"},{"selector":"@a[team=$(team)]"},{"text":"\n\n"},{"text":"--------------------","color":"blue"}]
-$scoreboard players add @a[team=$(team)] statistic_wins 1
+$scoreboard players add @a[team=$(team),tag=ingame] statistic_wins 1

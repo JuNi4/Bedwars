@@ -8,6 +8,11 @@ scoreboard players reset @a reset
 # game reset
 scoreboard players set is_running data 0
 
+# disable recipes
+scoreboard players set disable_recipes data 1
+gamerule doLimitedCrafting true
+gamerule randomTickSpeed 0
+
 # reset worldborder
 worldborder set 9999999
 

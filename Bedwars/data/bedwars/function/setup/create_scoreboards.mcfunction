@@ -29,7 +29,7 @@ scoreboard objectives add reset trigger
 # statistics
 scoreboard objectives add statistic_wins dummy
 scoreboard objectives add statistic_kills dummy
-scoreboard objectives add statistic_kills_counter minecraft.killed:minecraft.player
+scoreboard objectives add statistic_kills_counter playerKillCount
 scoreboard objectives add statistic_deaths dummy
 scoreboard objectives add statistic_played_games dummy
 scoreboard objectives add statistic_beds_destroyed dummy

@@ -38,7 +38,7 @@ execute store result storage bedwars_extras:animatronic current_movement.arg.i i
 #  puts the name into bedwars_extras:animatronic.current_movement.args.target
 function bedwars_extras:animatronics/new_movement/get_target with storage bedwars_extras:animatronic current_movement.arg
 execute store success score #result animatronics_data run function bedwars_extras:animatronics/new_movement/mark_target with storage bedwars_extras:animatronic current_movement.arg
-execute if score #result animatronics_data matches 0 run return run say NEW MOVEMENT DEBUG: no target found
+#execute if score #result animatronics_data matches 0 run return run say NEW MOVEMENT DEBUG: no target found
 
 # check if the target is free & teleport
 execute as @e[tag=animatronic_move_target] at @s if entity @e[tag=animatronic, distance=...5] run return run function bedwars_extras:animatronics/new_movement/unmark_target
