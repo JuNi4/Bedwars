@@ -65,3 +65,7 @@ baseic game functionallity with one map, most items from the item shop, some upg
 ## Release v1.2.2
 - added tnt rain (rotating item shop)
 - added statistics
+- added skyblock map
+- [EXTRAS] changes skyblock map to have a 50% chance to make you actually have to play skyblock (no shops, ...)
+- fixed multiple beds on planetoid
+- stopped shops from flying away

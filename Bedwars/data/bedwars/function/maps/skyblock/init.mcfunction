@@ -1,0 +1,2 @@
+execute if score extras_loaded data matches 0 run function bedwars:maps/api/register {name:"Sky Islands", function:"bedwars:maps/skyblock/load"}
+execute if score extras_loaded data matches 1 run function bedwars:maps/api/register {name:"Skyblock", function:"bedwars_extras:maps/skyblock/load"}

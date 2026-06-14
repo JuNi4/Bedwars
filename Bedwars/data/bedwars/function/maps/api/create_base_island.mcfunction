@@ -1,8 +1,8 @@
 # clear area
-fill ~-25 ~-10 ~-25 ~25 ~ ~25 air
-fill ~-25 ~ ~-25 ~25 ~10 ~25 air
-fill ~-25 ~10 ~-25 ~25 ~20 ~25 air
-fill ~-25 ~20 ~-25 ~25 ~30 ~25 air
+#fill ~-25 ~-10 ~-25 ~25 ~ ~25 air
+#fill ~-25 ~ ~-25 ~25 ~10 ~25 air
+#fill ~-25 ~10 ~-25 ~25 ~20 ~25 air
+#fill ~-25 ~20 ~-25 ~25 ~30 ~25 air
 # create island
 $setblock ~ ~ ~ structure_block{name:"$(structure)",rotation:"$(rotation)",mirror:"NONE",mode:"LOAD", ignoreEntities:0b} replace
 setblock ~ ~1 ~ redstone_block replace

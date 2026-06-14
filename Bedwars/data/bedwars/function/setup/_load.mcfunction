@@ -1,3 +1,7 @@
+# is the extras datapack loaded
+scoreboard players set extras_loaded data 0
+function #bedwars:before_load
+
 # register all maps
 function bedwars:maps/registry
 # register all rotary items

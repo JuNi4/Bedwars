@@ -5,6 +5,7 @@
         "bedwars:maps/snow_globe/init",
         "bedwars:maps/shapes/init",
         "bedwars:maps/planetoid/init",
-        "bedwars:maps/resin_rush/init"
+        "bedwars:maps/resin_rush/init",
+        "bedwars:maps/skyblock/init"
     ]
 }
