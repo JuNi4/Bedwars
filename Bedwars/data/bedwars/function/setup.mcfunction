@@ -1,21 +1,7 @@
 # gamerules
-gamerule doDaylightCycle false
-gamerule doWeatherCycle false
-gamerule doFireTick false
-gamerule doMobSpawning false
-#gamerule keepInventory true
-gamerule doInsomnia false
-gamerule doTraderSpawning false
-gamerule doPatrolSpawning false
-gamerule announceAdvancements false
-gamerule commandModificationBlockLimit 999999999
-gamerule randomTickSpeed 0
-gamerule doLimitedCrafting true
-gamerule doImmediateRespawn true
-gamerule locatorBar false
+function bedwars:setup/gamerules
 
 # spawn
-gamerule spawnRadius 0
 setworldspawn 0 131 0
 
 # teams

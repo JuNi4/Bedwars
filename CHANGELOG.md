@@ -63,9 +63,11 @@ baseic game functionallity with one map, most items from the item shop, some upg
 - at round end, you will no longer be set to spectator
 
 ## Release v1.2.2
+- support for 1.21.11 and above
 - added tnt rain (rotating item shop)
 - added statistics
 - added skyblock map
 - [EXTRAS] changes skyblock map to have a 50% chance to make you actually have to play skyblock (no shops, ...)
-- fixed multiple beds on planetoid
+- [EXTRAS] no more movement debug messages on pizzaria map
 - stopped shops from flying away
+- fixed multiple beds on planetoid

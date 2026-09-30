@@ -20,4 +20,9 @@ execute if score teams data matches 4.. positioned -65 0 1 run \
     function bedwars:maps/api/create_base_island {structure:"bedwars:skyblock_map/bed_island", rotation:"CLOCKWISE_180", facing:"east", team:"blue"}
 
 # enable recipes
-function bedwars:game/enable_recipes
+function bedwars:setup/recipes_enable
+#:if version::isBelow("1.21.11")
+gamerule randomTickSpeed 30
+#:else
+#::line("gamerule random_tick_speed 30")
+#:endif

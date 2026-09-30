@@ -9,12 +9,13 @@ scoreboard players reset @a reset
 scoreboard players set is_running data 0
 
 # disable recipes
-scoreboard players set disable_recipes data 1
-gamerule doLimitedCrafting true
-gamerule randomTickSpeed 0
+function bedwars:setup/recipes_disable
 
 # reset worldborder
 worldborder set 9999999
+
+# reset gamerules
+function bedwars:setup/gamerules
 
 # reset world
 function bedwars:setup/delete_islands

@@ -58,6 +58,7 @@
 - [x] Bed destoyed appears multiple times (multiple beds on planetoid)
 - [x] Statistics
 - [x] Shapes map has no bedrock under player spawn
+- [ ] Fix foxys eyes
 
 # ToDo (Bonus)
 
