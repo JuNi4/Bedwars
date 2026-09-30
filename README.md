@@ -8,7 +8,7 @@ Bedwars in Vanilla Minecraft for version 1.21.6 and up.
 
 > Note: this datapack will DELETE an area around 0 0
 
-1. Get the latest version of the datapack either from the [releases section](https://github.com/JuNi4/Bedwars/releases/latest) or directly from the source.
+1. Get the latest version of the datapack either from the [releases section](https://github.com/JuNi4/Bedwars/releases/latest) or directly from the source. (for versions 1.21.6 - 1.21.10 the 1.21.6 version and vor versions 1.21.11 and above the 1.21.11 version)
 2. Create a world with no blocks in it by using the 'Super Flat' preset 'The Void' (or don't if you want scenery around the map).
 3. Either add the datapack in the world creation screen or afterwards to the world/datapack folder. This is also where you should add any addons (you can also do so later, just remember to run `/reload` every time you add one).
 4. You need to have a simulation distance of at least 16 chunks.
